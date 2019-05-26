@@ -10,7 +10,7 @@ This repository contains data and scripts for a collation processing workflow, a
 Sample usage:
 
 ```bash
-python3 main.py data/input/chevLyon
+python3 main.py data/input/chevLyon/xml
 ```
 
 
