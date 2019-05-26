@@ -1,15 +1,19 @@
 #!usr/bin/env python
 # -*- coding: utf-8 -*-
-
 from lxml import etree
-from collatex import *
 import json
-import graphviz
+import glob
+import os
 
-def XMLtoJson(id,xmlInput):
-    # converts an XML tokenised and annotated input to JSON for collation
-    witness = {}
-    witness['id'] = id
+
+def XMLtoJson(siglum, xmlinput):
+    """
+    Converts an XML tokenised and annotated input to JSON for collation
+    :param siglum: identifier of the witness (a string)
+    :param xmlinput: XML input (an etree XML document)
+    :return: JSON content to be used for collation
+    """
+    witness = {"id": siglum}
     monXSL = etree.XML('''
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -43,12 +47,16 @@ def XMLtoJson(id,xmlInput):
 </xsl:stylesheet>
     ''')
     monXSL = etree.XSLT(monXSL)
-    witness['tokens'] = json.loads( '[' +str(monXSL(xmlInput)) +']')
+    witness['tokens'] = json.loads('[' + str(monXSL(xmlinput)) + ']')
     return witness
 
 
-#Redefining a core function to have other attributes
 def table_to_xml(table):
+    """
+    Redefining a core collatex function to have other attributes
+    :param table: a collatex table
+    :return: an XML collated document, with all the attributes existing in the input
+    """
     readings = []
     for column in table.columns:
         app = etree.Element('app')
@@ -56,8 +64,8 @@ def table_to_xml(table):
             child = etree.Element('rdg')
             child.attrib['wit'] = "#" + key
             child.text = "".join(str(item.token_data["form"]) for item in value)
-            #TODO: redéfinir pour accepter un nombre arbitraire d'éléments et faire ça proprement
-            #TODO: apparemment, aussi, il ne veut pas d'xml:id
+            # TODO: redéfinir pour accepter un nombre arbitraire d'éléments et faire ça proprement
+            # TODO: apparemment, aussi, il ne veut pas d'xml:id
             child.attrib['id'] = "".join(str(item.token_data["xml:id"]) for item in value)
             child.attrib['lemma'] = "".join(str(item.token_data["t"]) for item in value)
             child.attrib['POS'] = "".join(str(item.token_data["POS"]) for item in value)
@@ -67,3 +75,20 @@ def table_to_xml(table):
         result = etree.tostring(app, encoding="unicode")
         readings.append(result)
     return "<root>" + "".join(readings) + "</root>"
+
+
+def load_folder(path):
+    """
+    Loads an entire directory containing files in the expected xml input format.
+    :param path: path to the directory containing the files
+    :return: a dictionary containing a witnesses key, containing pairs with identifier and xml content
+    """
+    files = glob.glob(path+'/*.xml')
+    content = {}
+    for f in files:
+        with open(f, 'r') as myFile:
+            content[os.path.splitext(os.path.split(f)[-1])[0]] = etree.XML(myFile.read())
+
+    output = {'witnesses': [XMLtoJson(c, content[c]) for c in content]}
+
+    return output
