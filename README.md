@@ -7,5 +7,5 @@ This repository contains data and scripts for a collation processing workflow, a
 - `data`: contains both input data, and manually annotated validation data for comparison.
 
 
-![collazione](https://it.wikipedia.org/wiki/Colazione#/media/File:Barista_Fair_Trade_Coffee,_Gotgatan_67,_cappucino_(4386813991).jpg "Due cappucini")
+![collazione](https://upload.wikimedia.org/wikipedia/commons/8/8a/Barista_Fair_Trade_Coffee%2C_Gotgatan_67%2C_cappucino_%284386813991%29.jpg "Due cappucini")
 
