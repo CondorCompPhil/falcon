@@ -54,9 +54,8 @@ def xmlify(content):
 
     for wit in content:
         tokens = [t for sent in content[wit] for t in sent]
-        base = 0
         # if format == "tei-geste": Right now only 1 format
-        response = render_template("templates/geste.xml", base=base, tokens=tokens)
+        response = render_template("templates/geste.xml", tokens=tokens)
 
 
 
