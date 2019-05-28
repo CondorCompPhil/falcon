@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <body xml:lang="fro">
+            <div>
+                <ab>
+                
+                    <w xml:id="w_1" n="1" lemma="a3"
+                       pos="PRE" msd="MORPH=empty" >a</w>
+                    <w xml:id="w_2" n="2" lemma="il"
+                       pos="PROper" msd="PERS.=3|NOMB.=s|GENRE=m|CAS=i" >lui</w>
+                    <w xml:id="w_3" n="3" lemma="mëisme"
+                       pos="ADJind" msd="NOMB.=s|GENRE=m|CAS=r" >meisme</w>
+                    <w xml:id="w_4" n="4" lemma="soi1"
+                       pos="PROper" msd="PERS.=3|NOMB.=s|GENRE=m|CAS=r" >se</w>
+                    <w xml:id="w_5" n="5" lemma="conseillier1"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s" >conseille</w>
+                    <w xml:id="w_6" n="6" lemma="auquel"
+                       pos="PROind" msd="DEGRE=-" >auquel</w>
+                    <w xml:id="w_7" n="7" lemma="de"
+                       pos="PRE" msd="MORPH=empty" >de</w>
+                    <w xml:id="w_8" n="8" lemma="deus"
+                       pos="PROcar" msd="DEGRE=-" >ii</w>
+                    <w xml:id="w_9" n="9" lemma="il"
+                       pos="PROper" msd="PERS.=3|NOMB.=s|GENRE=m|CAS=n" >il</w>
+                    <w xml:id="w_10" n="10" lemma="aidier"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=fut|PERS.=3|NOMB.=s" >aidera</w>
+                    <w xml:id="w_11" n="11" lemma="il"
+                       pos="PROper" msd="PERS.=3|NOMB.=s|GENRE=m|CAS=n" >il</w>
+                    <w xml:id="w_12" n="12" lemma="dire"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s" >dist</w>
+                    <w xml:id="w_13" n="13" lemma="ce1"
+                       pos="CONsub" msd="MORPH=empty" >c</w>
+                    <w xml:id="w_14" n="14" lemma="a3+le"
+                       pos="PRE.DETdef" msd="NOMB.=s|GENRE=m|CAS=r" >au</w>
+                    <w xml:id="w_15" n="15" lemma="lïon"
+                       pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=r" >lion</w>
+                    <w xml:id="w_16" n="16" lemma="secorre1"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s" >secourra</w>
+                    <w xml:id="w_17" n="17" lemma="car"
+                       pos="CONcoo" msd="MORPH=empty" >car</w>
+                    <w xml:id="w_18" n="18" lemma="a3"
+                       pos="PRE" msd="MORPH=empty" >a</w>
+                    <w xml:id="w_19" n="19" lemma="virment"
+                       pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=n|DEGRE=p" >vrinmeus</w>
+                    <w xml:id="w_20" n="20" lemma="ne1"
+                       pos="ADVneg" msd="MORPH=empty" >n</w>
+                    <w xml:id="w_21" n="21" lemma="avoir"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s" >a</w>
+                    <w xml:id="w_22" n="22" lemma="felon"
+                       pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=r" >felon</w>
+                    <w xml:id="w_23" n="23" lemma="ne1"
+                       pos="ADVneg" msd="MORPH=empty" >ne</w>
+                    <w xml:id="w_24" n="24" lemma="devoir"
+                       pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s" >doit</w>
+                    <w xml:id="w_25" n="25" lemma="on"
+                       pos="PROind" msd="NOMB.=s|GENRE=n|CAS=n" >on</w>
+                    <w xml:id="w_26" n="26" lemma="faire"
+                       pos="VERinf" msd="MORPH=empty" >faire</w>
+                    <w xml:id="w_27" n="27" lemma="se"
+                       pos="CONsub" msd="MORPH=empty" >se</w>
+                    <w xml:id="w_28" n="28" lemma="mal1"
+                       pos="NOMcom" msd="DEGRE=-" >mal</w>
+                    <w xml:id="w_29" n="29" lemma="non"
+                       pos="ADVneg" msd="MORPH=empty" >non</w></ab>
+            </div>
+       </body>
+     </text>
+</TEI>

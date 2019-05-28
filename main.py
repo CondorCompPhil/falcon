@@ -2,7 +2,6 @@ import collazione.core as coll
 import collazione.preprocessing as prepr
 import sys
 import collatex
-import argparse
 
 if __name__ == "__main__":
     import argparse
@@ -16,14 +15,17 @@ if __name__ == "__main__":
     if args.lemmatise:
         # path = "./data/preproc/chevLyon/txt"
         # model_spec = "<models/fro_lemma-pos.tar,lemma><models/fro_lemma-pos.tar,pos>"
-        content = prepr.lemmatise(args.folder_path, "<models/fro_lemma-pos.tar,lemma><models/fro_lemma-pos.tar,pos>")
-
+        content = prepr.lemmatise(args.folder_path,
+                                  "<models/fro_lemma-pos.tar,lemma><models/fro_lemma-pos.tar,pos><models/fro_morph.tar,morph>")
+        documents = prepr.xmlify(content)
+        for doc in documents:
+            with open(args.folder_path + '/' + doc + ".xml", 'w') as f:
+                f.write(documents[doc])
 
     if args.collate:
-        if not args.lemmatise:
-            # then we need to load an xml annotated folder
-            #path = "./data/input/chevLyon/xml"
-            json_input = coll.load_annotated_folder(args.folder_path)
+        # then we need to load an xml annotated folder
+        #path = "./data/input/chevLyon/xml"
+        json_input = coll.load_annotated_folder(args.folder_path)
 
         table = collatex.collate(json_input, output="table", layout="vertical", segmentation=False, near_match=True)
         xml_output = coll.table_to_xml(table)

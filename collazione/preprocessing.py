@@ -2,8 +2,7 @@ import glob
 import os
 from pie import utils
 from pie.tagger import Tagger, lines_from_file
-from flask import render_template
-
+from jinja2 import Environment, PackageLoader, select_autoescape
 
 def lemmatise(path, model_spec):
     """
@@ -32,12 +31,14 @@ def lemmatise(path, model_spec):
             sents, lengths = zip(*chunk)
             tagged, tasks = tagger.tag(sents, lengths)
             for sent in tagged:
-                # cannot use comprehension because need to define id ?
-                # content[wit].append([{"form": t[0], "lemma": t[1][0], "POS": t[1][1], "morph": ''} for t in sent])
                 new_sent = []
                 for t in sent:
-                    new_sent.append({"form": t[0], "lemma": t[1][0], "POS": t[1][1],
-                                     "morph": '', "id": "w_"+str(tokenId), "order_id": str(tokenId)})
+                    token_dict =  {"form": t[0], "id": "w_"+str(tokenId), "order_id": str(tokenId)}
+                    # and now add the different annotations from lemmatiser
+                    for index in enumerate(tasks):
+                        token_dict[index[1]] = t[1][index[0]]
+
+                    new_sent.append(token_dict)
                     tokenId += 1
 
                 content[wit].append(new_sent)
@@ -52,10 +53,20 @@ def xmlify(content):
     :return:
     """
 
+    env = Environment(
+        loader=PackageLoader('collazione', 'templates'),
+        autoescape=select_autoescape(['html', 'xml'])
+    )
+    template = env.get_template('geste.xml')
+
+    documents = {}
+
     for wit in content:
         tokens = [t for sent in content[wit] for t in sent]
         # if format == "tei-geste": Right now only 1 format
-        response = render_template("templates/geste.xml", tokens=tokens)
+        documents[wit] = template.render(tokens=tokens)
+
+    return documents
 
 
 

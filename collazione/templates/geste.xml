@@ -17,7 +17,7 @@
                 </ab>
                 <ab>{%- else %}
                     <w xml:id="{{token.id}}" n="{{token.order_id}}" lemma="{{token.lemma}}"
-                       type="POS={{token.POS}}{% if token.morph and token.morph != "None" %}|{{token.morph}}{% endif %}" >{{token.form}}</w>{% endif -%}
+                       pos="{{token.pos}}" msd="{% if token.morph and token.morph != "None" %}{{token.morph}}{% endif %}" >{{token.form}}</w>{% endif -%}
                 {% endfor %}</ab>
             </div>
        </body>
