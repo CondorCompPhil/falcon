@@ -77,7 +77,7 @@ def table_to_xml(table):
     return "<root>" + "".join(readings) + "</root>"
 
 
-def load_folder(path):
+def load_annotated_folder(path):
     """
     Loads an entire directory containing files in the expected xml input format.
     :param path: path to the directory containing the files
