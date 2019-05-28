@@ -1,6 +1,5 @@
 import collazione.core as coll
 import collazione.preprocessing as prepr
-import sys
 import collatex
 
 if __name__ == "__main__":

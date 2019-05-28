@@ -5,7 +5,6 @@ import json
 import glob
 import os
 
-
 def XMLtoJson(siglum, xmlinput):
     """
     Converts an XML tokenised and annotated input to JSON for collation
