@@ -5,7 +5,6 @@ import json
 import glob
 import os
 
-
 def XMLtoJson(siglum, xmlinput):
     """
     Converts an XML tokenised and annotated input to JSON for collation
@@ -20,14 +19,14 @@ def XMLtoJson(siglum, xmlinput):
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     version="1.0">
-
+    
     <xsl:output method="text"/>
-
+    
     <xsl:template match="/">
         <xsl:apply-templates
             select="descendant::tei:w"/>
     </xsl:template>
-
+    
     <xsl:template match="tei:w">
         <xsl:text>{"form": "</xsl:text>
         <xsl:apply-templates/>
@@ -35,10 +34,28 @@ def XMLtoJson(siglum, xmlinput):
         <xsl:value-of select="@xml:id"/>
         <xsl:text>", "t": "</xsl:text>
         <xsl:value-of select="@lemma"/>
-        <xsl:text>", "POS": "</xsl:text>
-        <xsl:value-of select="substring-before(@type, '|')"/>
+        <xsl:text>", "pos": "</xsl:text>
+        <xsl:choose>
+            <xsl:when test="@pos">
+                <xsl:value-of select="@pos"/>
+            </xsl:when>
+            <xsl:when test="contains(@type, '|')">
+                <xsl:value-of select="substring-before(@type, '|')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="@type"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>", "morph": "</xsl:text>
-        <xsl:value-of select="substring-after(@type, '|')"/>
+        <xsl:choose>
+            <xsl:when test="@msd">
+                <xsl:value-of select="@msd"/>
+            </xsl:when>
+            <xsl:when test="contains(@type, '|')">
+                <xsl:value-of select="substring-after(@type, '|')"/>
+            </xsl:when>
+            <xsl:otherwise/>
+        </xsl:choose>
         <xsl:text>"}</xsl:text>
         <xsl:if test="following::tei:w">
             <xsl:text>, </xsl:text>
@@ -68,8 +85,8 @@ def table_to_xml(table):
             # TODO: apparemment, aussi, il ne veut pas d'xml:id
             child.attrib['id'] = "".join(str(item.token_data["xml:id"]) for item in value)
             child.attrib['lemma'] = "".join(str(item.token_data["t"]) for item in value)
-            child.attrib['POS'] = "".join(str(item.token_data["POS"]) for item in value)
-            child.attrib['morph'] = "".join(str(item.token_data["morph"]) for item in value)
+            child.attrib['pos'] = "".join(str(item.token_data["pos"]) for item in value)
+            child.attrib['msd'] = "".join(str(item.token_data["morph"]) for item in value)
             app.append(child)
         # Without the encoding specification, outputs bytes instead of a string
         result = etree.tostring(app, encoding="unicode")
@@ -77,7 +94,7 @@ def table_to_xml(table):
     return "<root>" + "".join(readings) + "</root>"
 
 
-def load_folder(path):
+def load_annotated_folder(path):
     """
     Loads an entire directory containing files in the expected xml input format.
     :param path: path to the directory containing the files
@@ -87,7 +104,7 @@ def load_folder(path):
     content = {}
     for f in files:
         with open(f, 'r') as myFile:
-            content[os.path.splitext(os.path.split(f)[-1])[0]] = etree.XML(myFile.read())
+            content[os.path.splitext(os.path.split(f)[-1])[0]] = etree.parse(myFile)
 
     output = {'witnesses': [XMLtoJson(c, content[c]) for c in content]}
 

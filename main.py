@@ -1,22 +1,36 @@
 import collazione.core as coll
-import sys
+import collazione.preprocessing as prepr
 import collatex
 
-
 if __name__ == "__main__":
+    import argparse
 
-    #path = "./data/input/chevLyon/xml"
-    path = sys.argv[1]
+    parser = argparse.ArgumentParser()
+    parser.add_argument('folder_path', help="unix string")
+    parser.add_argument('--collate', action='store_true')
+    parser.add_argument('--lemmatise', action='store_true')
+    args = parser.parse_args()
 
-    json_input = coll.load_folder(path)
+    if args.lemmatise:
+        # path = "./data/preproc/chevLyon/txt"
+        # model_spec = "<models/fro_lemma-pos.tar,lemma><models/fro_lemma-pos.tar,pos>"
+        content = prepr.lemmatise(args.folder_path,
+                                  "<models/fro_lemma-pos.tar,lemma><models/fro_lemma-pos.tar,pos><models/fro_morph.tar,morph>")
+        documents = prepr.xmlify(content)
+        for doc in documents:
+            with open(args.folder_path + '/' + doc + ".xml", 'w') as f:
+                f.write(documents[doc])
 
-    table = collatex.collate(json_input, output="table", layout="vertical", segmentation=False, near_match=True)
+    if args.collate:
+        # then we need to load an xml annotated folder
+        #path = "./data/input/chevLyon/xml"
+        json_input = coll.load_annotated_folder(args.folder_path)
 
-    xml_output = coll.table_to_xml(table)
+        table = collatex.collate(json_input, output="table", layout="vertical", segmentation=False, near_match=True)
+        xml_output = coll.table_to_xml(table)
 
-    with open("out.xml", 'w') as f:
-        print(xml_output, file=f)
+        with open("out.xml", 'w') as f:
+            print(xml_output, file=f)
 
-    with open("out.txt", 'w') as f:
-        print(table, file=f)
-
+        with open("out.txt", 'w') as f:
+            print(table, file=f)
