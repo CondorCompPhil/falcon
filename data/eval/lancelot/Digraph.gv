@@ -1,0 +1,1698 @@
+digraph {
+	graph [rankdir=LR]
+	1 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>start</B></TD><TD ALIGN='LEFT'>exact: 0</TD></TR></TABLE>>]
+	2 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>end</B></TD><TD ALIGN='LEFT'>exact: 256</TD></TR></TABLE>>]
+	3 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ha!_INJ</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ha</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	4 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dame_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dame</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	5 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dictes</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dites</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	6 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 4</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>moi</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>moy</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	7 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que2_PROrel</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	8 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vos_PROper</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vos</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vous</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	9 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 7</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>avez</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	10 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 8</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	11 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>se_CONsub</B></TD><TD ALIGN='LEFT'>exact: 9</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>s</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>se</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	12 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>nul_PROind</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>nus</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	13 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vos_PROper</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vos</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vous</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	14 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 12</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	15 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>corrocier_VERppe</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>correciee</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>courroucee</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	16 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ne1+il_ADVneg.PROper</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>nel</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	17 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 16</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>me</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	18 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>celer1_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 17</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>celez</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	19 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mie1_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 18</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mie</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	20 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>car_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 19</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>car</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	21 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 20</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ge</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	22 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ne1_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 21</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	23 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cuidier1_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 22</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuide</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuideroie</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	24 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>pas_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 23</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pas</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	25 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 24</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	26 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>nul_PROind</B></TD><TD ALIGN='LEFT'>exact: 25</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>nus</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	27 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vos_PROper</B></TD><TD ALIGN='LEFT'>exact: 26</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vos</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vous</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	28 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>oser_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 27</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>osast</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	29 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>corrocier_VERinf</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>correcier</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>courroucer</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	30 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 29</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	31 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mon1_DETpos</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mon</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	32 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vivant_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vivant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	33 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cant1_CONsub</B></TD><TD ALIGN='LEFT'>exact: 34</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Qant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Quant</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	34 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 35</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	35 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 36</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	36 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>öir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 37</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ot</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>oyt</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	37 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 38</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	38 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 39</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>se</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	39 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>rescrever_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 40</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>rescrieve</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	40 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 41</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	41 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>plorer_VERinf</B></TD><TD ALIGN='LEFT'>exact: 42</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>plorer</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>plourer</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	42 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 43</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	43 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>estre1_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 45</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>est</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	44 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>tel_DETind</B></TD><TD ALIGN='LEFT'>exact: 47</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tel</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	45 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>conrëer_VERppe</B></TD><TD ALIGN='LEFT'>exact: 48</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>conree</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	46 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 49</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>c</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	47 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>un_DETcar</B></TD><TD ALIGN='LEFT'>exact: 50</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>un</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ung</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	48 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sol1_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 51</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>seul</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	49 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mot_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mot</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	50 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ne1_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 53</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	51 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 54</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	52 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>pöoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 55</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>peut</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>puet</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	53 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dire_VERinf</B></TD><TD ALIGN='LEFT'>exact: 56</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dire</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	54 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de_PRE</B></TD><TD ALIGN='LEFT'>exact: 57</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	55 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 58</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	56 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>boche_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 59</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>boche</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	57 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>car_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 60</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>car</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	58 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 61</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	59 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sanglot_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 62</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sanglot</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	60 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 63</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	61 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>entrerompre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 64</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>antreronpent</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	62 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 65</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sa</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	63 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>parole_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 66</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>parole</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	64 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>trop_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 67</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>trop</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	65 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>durement2_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 68</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>durement</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	66 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mais1_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 69</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Mais</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	67 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 70</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	68 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>chief1_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 71</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>chief</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	69 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de_PRE</B></TD><TD ALIGN='LEFT'>exact: 72</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	70 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>piece_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 73</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>piece</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	71 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 75</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lui</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	72 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 76</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dist</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dit</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	73 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>itant_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 77</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>itant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	74 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 78</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	75 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 79</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qu</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	76 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 80</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>il</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	77 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 81</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	78 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>entendre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 82</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>antant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	79 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mout_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 83</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mout</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	80 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>bien1_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 84</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>bien</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	81 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ha!_INJ</B></TD><TD ALIGN='LEFT'>exact: 85</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ha</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	82 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>fil2_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 86</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>filz</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	83 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de_PRE</B></TD><TD ALIGN='LEFT'>exact: 87</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	84 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>roi2_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 88</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>roi</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>roy</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	85 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>fuir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 91</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fuiez</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fuyez</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	86 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de_PRE</B></TD><TD ALIGN='LEFT'>exact: 93</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>d</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	87 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ci_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 94</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ci</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	88 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>o3_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 95</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>o</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ou</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	89 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 96</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	90 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cuer2_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 97</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuers</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cueur</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	91 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 98</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>me</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	92 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>partir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 99</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>partira</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	93 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dedenz_PRE</B></TD><TD ALIGN='LEFT'>exact: 100</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dedanz</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	94 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 101</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	95 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ventre1_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 102</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ventre</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	96 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dame_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 103</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Dame</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	97 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>faire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 104</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fait</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	98 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 105</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>il</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	99 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ainçois_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 106</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ançois</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	100 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 107</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>m</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	101 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en2_PROadv</B></TD><TD ALIGN='LEFT'>exact: 108</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	102 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>aler_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 109</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>iray</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>iroie</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	103 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 110</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ge</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	104 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>car_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 111</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>car</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	105 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mauvais_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 112</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mauvais</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	106 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>remanoir_VERinf</B></TD><TD ALIGN='LEFT'>exact: 113</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>remanoir</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	107 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>i2_PROadv</B></TD><TD ALIGN='LEFT'>exact: 114</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>i</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>y</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	108 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 115</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ai</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ay</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	109 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>puis_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 116</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>puis</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	110 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 117</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	111 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 118</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ge</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	112 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vos_PROper</B></TD><TD ALIGN='LEFT'>exact: 119</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vos</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vous</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	113 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>enoiier_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 120</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>anui</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ennuye</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	114 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>tant_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 122</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tant</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	115 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>atant_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 123</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Atant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	116 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 124</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>s</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	117 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en2_PROadv</B></TD><TD ALIGN='LEFT'>exact: 125</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>an</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	118 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>torner_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 126</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>torne</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	119 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 127</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	120 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vaslet_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 128</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vallez</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	121 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 129</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	122 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>venir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 130</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vint</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	123 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 131</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	124 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 132</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>son</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	125 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>arc_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 133</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>arc</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	126 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si+il_ADVgen.PROper</B></TD><TD ALIGN='LEFT'>exact: 134</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sel</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	127 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>prendre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 135</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	128 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 136</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	129 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 137</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	130 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>metre2_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 138</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>met</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	131 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 139</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	132 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 140</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>son</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	133 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>col_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 141</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>col</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	134 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 142</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	135 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>receindre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 143</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>receint</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	136 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 144</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>son</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	137 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>tarcais_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 145</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>carquois</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tarquais</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	138 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>puis_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 146</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Puis</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	139 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>venir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 147</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vient</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	140 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 148</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	141 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 149</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>son</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	142 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>roncin_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 150</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>roncin</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	143 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 151</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	144 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 152</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lui</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	145 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>metre2_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 153</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>met</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	146 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 154</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	147 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>frein_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 155</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>frain</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	148 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 156</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>il</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	149 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mëisme_ADJind</B></TD><TD ALIGN='LEFT'>exact: 157</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>meesmes</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	150 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 158</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	151 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 159</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	152 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>traire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 160</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>trait</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	153 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>enmi_PRE</B></TD><TD ALIGN='LEFT'>exact: 161</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>anmi</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>emmy</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	154 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 162</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	155 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cort1_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 163</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cort</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>court</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	156 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mais1_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 164</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Mais</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	157 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cel_PROdem</B></TD><TD ALIGN='LEFT'>exact: 165</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>celle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	158 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>qui_PROrel</B></TD><TD ALIGN='LEFT'>exact: 166</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qui</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	159 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sor2_PRE</B></TD><TD ALIGN='LEFT'>exact: 167</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sor</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	160 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>tot_DETind</B></TD><TD ALIGN='LEFT'>exact: 168</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tote</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>toute</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	161 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>rien_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 169</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>rien</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	162 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 170</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	163 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>amer1_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 171</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>amoit</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aymoit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	164 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 172</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>se</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	165 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>penser_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 173</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pense</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	166 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 175</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qu</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	167 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 177</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	168 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 178</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>avoit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	169 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>trop_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 179</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>trop</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	170 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>parler_VERppe</B></TD><TD ALIGN='LEFT'>exact: 180</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>parlé</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	171 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 181</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	172 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 182</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	173 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>trop_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 183</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>trop</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	174 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>corrocier_VERppe</B></TD><TD ALIGN='LEFT'>exact: 184</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>correciez</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>courrouce</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	175 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 185</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>s</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	176 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en2_PROadv</B></TD><TD ALIGN='LEFT'>exact: 186</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	177 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>aler_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 187</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vait</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	178 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 188</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	179 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 189</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	180 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 190</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	181 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>savoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 191</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>savoit</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	182 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 192</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	183 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 193</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	184 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>fier_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 194</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fier</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	185 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 195</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	186 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 196</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	187 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 197</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	188 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vigoros_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 198</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>viguereus</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	189 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que1_CONsub</B></TD><TD ALIGN='LEFT'>exact: 199</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qu</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	190 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 200</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>il</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	191 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ne1_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 201</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	192 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>prisier_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 202</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prisast</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	193 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>rien_PROind</B></TD><TD ALIGN='LEFT'>exact: 203</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>rien</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>riens</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	194 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>nul_DETind</B></TD><TD ALIGN='LEFT'>exact: 204</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>nule</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	195 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mesaise_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 205</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mesaise</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	196 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>encontre1_PRE</B></TD><TD ALIGN='LEFT'>exact: 206</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>encontre</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	197 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 207</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>son</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	198 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cuer2_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 208</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuer</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cueur</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	199 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 209</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	200 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>salir2_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 210</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>saut</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	201 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sus_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 211</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sus</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	202 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 212</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	203 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>essuier_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 213</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>essuie</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	204 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>son4_DETpos</B></TD><TD ALIGN='LEFT'>exact: 214</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ses</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	205 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ueil_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 215</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>iauz</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	206 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que2_PROrel</B></TD><TD ALIGN='LEFT'>exact: 216</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	207 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 217</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	208 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 218</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ot</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	209 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>roge_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 219</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>roges</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	210 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 220</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	211 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>enfler_VERppe</B></TD><TD ALIGN='LEFT'>exact: 221</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>enflez</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	212 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 222</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	213 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 223</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>s</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	214 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en2_PROadv</B></TD><TD ALIGN='LEFT'>exact: 224</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>an</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	215 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>venir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 225</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vient</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	216 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>grant_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 226</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	217 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>alëure_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 227</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aleüre</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	218 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>enmi_PRE</B></TD><TD ALIGN='LEFT'>exact: 228</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>enmi</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	219 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 229</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	220 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>cort1_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 230</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cort</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>court</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	221 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 231</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	222 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vëoir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 232</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>voit</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	223 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le_DETdef</B></TD><TD ALIGN='LEFT'>exact: 233</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lo</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	224 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vaslet_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 234</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vallet</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	225 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>qui_PROrel</B></TD><TD ALIGN='LEFT'>exact: 235</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qui</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	226 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>monter_VERinf</B></TD><TD ALIGN='LEFT'>exact: 236</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>monter</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	227 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>voloir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 237</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>voloit</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	228 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 238</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	229 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>faire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 239</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>faisoit</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	230 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de_PRE</B></TD><TD ALIGN='LEFT'>exact: 240</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>d</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	231 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ome_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 241</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ome</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>omme</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	232 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>corrocier_VERppe</B></TD><TD ALIGN='LEFT'>exact: 242</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>correcié</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>courrouce</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	233 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mout_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 243</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mont</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>moult</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	234 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>grant_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 244</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grant</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	235 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>semblant_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 245</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sanblant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>semblant</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	236 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 246</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ele</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	237 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>salir2_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 247</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>saut</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	238 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>avant_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 248</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>avant</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	239 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 249</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Si</FONT></TD><TD ALIGN='LEFT'>B</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	240 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 250</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	241 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>aerdre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 251</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aert</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
+	242 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3+le_PRE.DETdef</B></TD><TD ALIGN='LEFT'>exact: 252</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>au</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	243 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>frein_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 253</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>frain</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	244 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 254</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>A, B</TD></TR></TABLE>>]
+	245 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dire_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 255</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dist</FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	246 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>aucun_PROind</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aucuns</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	247 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ne1_ADVneg</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	248 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 15</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	249 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ome_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 25</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>homme</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	250 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>tant_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 29</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tant</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	251 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>come1_CONsub</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>comme</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	252 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	253 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>estre1_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 32</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fusse</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	254 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vif_ADJqua</B></TD><TD ALIGN='LEFT'>exact: 33</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	255 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 38</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	256 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>prendre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 40</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prent</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	257 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 44</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	258 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en1_PRE</B></TD><TD ALIGN='LEFT'>exact: 46</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	259 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>estat_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 48</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>estat</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	260 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>totesfoiz_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 57</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Touteffois</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	261 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 74</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	262 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>por2_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 89</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pour</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	263 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>Dieu_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 90</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dieu</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	264 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vos_PROper</B></TD><TD ALIGN='LEFT'>exact: 92</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vous</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	265 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ici_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 94</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>icy</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	266 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>de+le_PRE.DETdef</B></TD><TD ALIGN='LEFT'>exact: 100</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>du</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	267 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je_PROper</B></TD><TD ALIGN='LEFT'>exact: 106</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	268 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>demorer_VERinf</B></TD><TD ALIGN='LEFT'>exact: 113</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>demourer</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	269 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>a3_PRE</B></TD><TD ALIGN='LEFT'>exact: 121</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>A</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	270 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>retorner_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 126</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>retourne</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	271 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>Lancelot_NOMpro</B></TD><TD ALIGN='LEFT'>exact: 127</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lancelot</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	272 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 128</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	273 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>prendre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 129</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prent</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	274 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>puis_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 142</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>puis</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	275 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ceindre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 143</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>seint</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	276 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 146</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	277 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>roussin_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 150</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>roussin</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	278 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sus_PRE</B></TD><TD ALIGN='LEFT'>exact: 167</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sus</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	279 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>bien1_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 174</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>bien</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	280 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 176</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>elle</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	281 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>mout_ADVgen</B></TD><TD ALIGN='LEFT'>exact: 179</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>moult</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	282 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>sentir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 191</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sentoit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	283 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>quelque_DETrel</B></TD><TD ALIGN='LEFT'>exact: 204</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quelque</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	284 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>chose_NOMcom</B></TD><TD ALIGN='LEFT'>exact: 205</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>chose</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	285 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>contre_PRE</B></TD><TD ALIGN='LEFT'>exact: 206</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>contre</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	286 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>soi1_PROper</B></TD><TD ALIGN='LEFT'>exact: 218</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>se</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	287 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>lever_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 219</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lieve</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	288 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>en1_PRE</B></TD><TD ALIGN='LEFT'>exact: 226</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	289 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>et_CONcoo</B></TD><TD ALIGN='LEFT'>exact: 231</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	290 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>que4_CONsub</B></TD><TD ALIGN='LEFT'>exact: 233</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qu</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	291 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>il_PROper</B></TD><TD ALIGN='LEFT'>exact: 234</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>il</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	292 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>voloir_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 235</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vouloit</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	293 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>prendre_VERcjg</B></TD><TD ALIGN='LEFT'>exact: 251</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prent</FONT></TD><TD ALIGN='LEFT'>B</TD></TR></TABLE>>]
+	1 -> 3 [label="A, B"]
+	3 -> 4 [label="A, B"]
+	4 -> 5 [label="A, B"]
+	5 -> 6 [label="A, B"]
+	6 -> 7 [label="A, B"]
+	7 -> 8 [label="A, B"]
+	8 -> 9 [label="A, B"]
+	9 -> 10 [label="A, B"]
+	10 -> 11 [label="A, B"]
+	11 -> 12 [label=A]
+	11 -> 246 [label=B]
+	12 -> 13 [label=A]
+	13 -> 14 [label="A, B"]
+	14 -> 15 [label="A, B"]
+	15 -> 16 [label=A]
+	15 -> 247 [label=B]
+	16 -> 17 [label=A]
+	17 -> 18 [label="A, B"]
+	18 -> 19 [label="A, B"]
+	19 -> 20 [label="A, B"]
+	20 -> 21 [label="A, B"]
+	21 -> 22 [label="A, B"]
+	22 -> 23 [label="A, B"]
+	23 -> 24 [label="A, B"]
+	24 -> 25 [label="A, B"]
+	25 -> 26 [label=A]
+	25 -> 249 [label=B]
+	26 -> 27 [label=A]
+	27 -> 28 [label="A, B"]
+	28 -> 29 [label="A, B"]
+	29 -> 30 [label=A]
+	29 -> 250 [label=B]
+	30 -> 31 [label=A]
+	31 -> 32 [label=A]
+	32 -> 33 [label=A]
+	33 -> 34 [label="A, B"]
+	34 -> 35 [label="A, B"]
+	35 -> 36 [label="A, B"]
+	36 -> 37 [label=A]
+	36 -> 255 [label=B]
+	37 -> 38 [label=A]
+	38 -> 39 [label=A]
+	38 -> 256 [label=B]
+	39 -> 40 [label=A]
+	40 -> 41 [label="A, B"]
+	41 -> 42 [label="A, B"]
+	42 -> 43 [label=A]
+	42 -> 257 [label=B]
+	43 -> 44 [label=A]
+	43 -> 258 [label=B]
+	44 -> 45 [label=A]
+	44 -> 259 [label=B]
+	45 -> 46 [label=A]
+	46 -> 47 [label="A, B"]
+	47 -> 48 [label="A, B"]
+	48 -> 49 [label="A, B"]
+	49 -> 50 [label="A, B"]
+	50 -> 51 [label=A]
+	50 -> 52 [label=B]
+	51 -> 52 [label=A]
+	52 -> 53 [label="A, B"]
+	53 -> 54 [label=A]
+	53 -> 260 [label=B]
+	54 -> 55 [label=A]
+	55 -> 56 [label=A]
+	56 -> 57 [label=A]
+	57 -> 58 [label=A]
+	58 -> 59 [label=A]
+	59 -> 60 [label=A]
+	60 -> 61 [label=A]
+	61 -> 62 [label=A]
+	62 -> 63 [label=A]
+	63 -> 64 [label=A]
+	64 -> 65 [label=A]
+	65 -> 66 [label=A]
+	66 -> 67 [label=A]
+	67 -> 68 [label="A, B"]
+	68 -> 69 [label="A, B"]
+	69 -> 70 [label="A, B"]
+	70 -> 71 [label=A]
+	70 -> 261 [label=B]
+	71 -> 72 [label="A, B"]
+	72 -> 73 [label=A]
+	72 -> 81 [label=B]
+	73 -> 74 [label=A]
+	74 -> 75 [label=A]
+	75 -> 76 [label=A]
+	76 -> 77 [label=A]
+	77 -> 78 [label=A]
+	78 -> 79 [label=A]
+	79 -> 80 [label=A]
+	80 -> 81 [label=A]
+	81 -> 82 [label="A, B"]
+	82 -> 83 [label="A, B"]
+	83 -> 84 [label="A, B"]
+	84 -> 85 [label=A]
+	84 -> 262 [label=B]
+	85 -> 86 [label=A]
+	85 -> 264 [label=B]
+	86 -> 87 [label=A]
+	86 -> 265 [label=B]
+	87 -> 88 [label=A]
+	88 -> 89 [label="A, B"]
+	89 -> 90 [label="A, B"]
+	90 -> 91 [label="A, B"]
+	91 -> 92 [label="A, B"]
+	92 -> 93 [label=A]
+	92 -> 266 [label=B]
+	93 -> 94 [label=A]
+	94 -> 95 [label=A]
+	95 -> 96 [label="A, B"]
+	96 -> 97 [label="A, B"]
+	97 -> 98 [label="A, B"]
+	98 -> 99 [label=A]
+	98 -> 267 [label=B]
+	99 -> 100 [label=A]
+	100 -> 101 [label="A, B"]
+	101 -> 102 [label="A, B"]
+	102 -> 103 [label=A]
+	102 -> 104 [label=B]
+	103 -> 104 [label=A]
+	104 -> 105 [label="A, B"]
+	105 -> 106 [label=A]
+	105 -> 268 [label=B]
+	106 -> 107 [label=A]
+	107 -> 108 [label="A, B"]
+	108 -> 109 [label="A, B"]
+	109 -> 110 [label="A, B"]
+	110 -> 111 [label="A, B"]
+	111 -> 112 [label="A, B"]
+	112 -> 113 [label="A, B"]
+	113 -> 114 [label=A]
+	113 -> 269 [label=B]
+	114 -> 115 [label=A]
+	114 -> 116 [label=B]
+	115 -> 116 [label=A]
+	116 -> 117 [label="A, B"]
+	117 -> 118 [label=A]
+	117 -> 270 [label=B]
+	118 -> 119 [label=A]
+	119 -> 120 [label=A]
+	120 -> 121 [label=A]
+	121 -> 122 [label=A]
+	122 -> 123 [label=A]
+	123 -> 124 [label=A]
+	124 -> 125 [label="A, B"]
+	125 -> 126 [label=A]
+	125 -> 128 [label=B]
+	126 -> 127 [label=A]
+	127 -> 128 [label=A]
+	128 -> 129 [label="A, B"]
+	129 -> 130 [label="A, B"]
+	130 -> 131 [label="A, B"]
+	131 -> 132 [label="A, B"]
+	132 -> 133 [label="A, B"]
+	133 -> 134 [label=A]
+	133 -> 274 [label=B]
+	134 -> 135 [label=A]
+	135 -> 136 [label=A]
+	136 -> 137 [label="A, B"]
+	137 -> 138 [label=A]
+	137 -> 276 [label=B]
+	138 -> 139 [label=A]
+	139 -> 140 [label="A, B"]
+	140 -> 141 [label="A, B"]
+	141 -> 142 [label=A]
+	141 -> 277 [label=B]
+	142 -> 143 [label=A]
+	143 -> 144 [label="A, B"]
+	144 -> 145 [label="A, B"]
+	145 -> 146 [label="A, B"]
+	146 -> 147 [label="A, B"]
+	147 -> 148 [label=A]
+	147 -> 150 [label=B]
+	148 -> 149 [label=A]
+	149 -> 150 [label=A]
+	150 -> 151 [label="A, B"]
+	151 -> 152 [label="A, B"]
+	152 -> 153 [label="A, B"]
+	153 -> 154 [label="A, B"]
+	154 -> 155 [label="A, B"]
+	155 -> 156 [label="A, B"]
+	156 -> 157 [label="A, B"]
+	157 -> 158 [label="A, B"]
+	158 -> 159 [label=A]
+	158 -> 278 [label=B]
+	159 -> 160 [label=A]
+	160 -> 161 [label="A, B"]
+	161 -> 162 [label="A, B"]
+	162 -> 163 [label="A, B"]
+	163 -> 164 [label=A]
+	163 -> 165 [label=B]
+	164 -> 165 [label=A]
+	165 -> 166 [label=A]
+	165 -> 279 [label=B]
+	166 -> 167 [label=A]
+	166 -> 280 [label=B]
+	167 -> 168 [label="A, B"]
+	168 -> 169 [label=A]
+	168 -> 281 [label=B]
+	169 -> 170 [label=A]
+	170 -> 171 [label=A]
+	171 -> 172 [label=A]
+	172 -> 173 [label=A]
+	173 -> 174 [label=A]
+	174 -> 175 [label=A]
+	174 -> 178 [label=B]
+	175 -> 176 [label=A]
+	176 -> 177 [label=A]
+	177 -> 178 [label=A]
+	178 -> 179 [label=A]
+	178 -> 180 [label=B]
+	179 -> 180 [label=A]
+	180 -> 181 [label=A]
+	180 -> 282 [label=B]
+	181 -> 182 [label=A]
+	182 -> 183 [label="A, B"]
+	183 -> 184 [label="A, B"]
+	184 -> 185 [label=A]
+	184 -> 189 [label=B]
+	185 -> 186 [label=A]
+	186 -> 187 [label=A]
+	187 -> 188 [label=A]
+	188 -> 189 [label=A]
+	189 -> 190 [label="A, B"]
+	190 -> 191 [label="A, B"]
+	191 -> 192 [label="A, B"]
+	192 -> 193 [label="A, B"]
+	193 -> 194 [label=A]
+	193 -> 283 [label=B]
+	194 -> 195 [label=A]
+	195 -> 196 [label=A]
+	196 -> 197 [label=A]
+	197 -> 198 [label="A, B"]
+	198 -> 199 [label=A]
+	198 -> 207 [label=B]
+	199 -> 200 [label=A]
+	200 -> 201 [label=A]
+	201 -> 202 [label=A]
+	202 -> 203 [label=A]
+	203 -> 204 [label=A]
+	204 -> 205 [label=A]
+	205 -> 206 [label=A]
+	206 -> 207 [label=A]
+	207 -> 208 [label=A]
+	207 -> 286 [label=B]
+	208 -> 209 [label=A]
+	209 -> 210 [label=A]
+	210 -> 211 [label=A]
+	211 -> 212 [label=A]
+	212 -> 213 [label=A]
+	213 -> 214 [label="A, B"]
+	214 -> 215 [label="A, B"]
+	215 -> 216 [label=A]
+	215 -> 288 [label=B]
+	216 -> 217 [label=A]
+	217 -> 218 [label=A]
+	218 -> 219 [label=A]
+	219 -> 220 [label="A, B"]
+	220 -> 221 [label=A]
+	220 -> 289 [label=B]
+	221 -> 222 [label=A]
+	222 -> 223 [label=A]
+	222 -> 290 [label=B]
+	223 -> 224 [label=A]
+	224 -> 225 [label=A]
+	225 -> 226 [label=A]
+	226 -> 227 [label=A]
+	226 -> 228 [label=B]
+	227 -> 228 [label=A]
+	228 -> 229 [label="A, B"]
+	229 -> 230 [label="A, B"]
+	230 -> 231 [label="A, B"]
+	231 -> 232 [label="A, B"]
+	232 -> 233 [label="A, B"]
+	233 -> 234 [label="A, B"]
+	234 -> 235 [label="A, B"]
+	235 -> 236 [label=A]
+	235 -> 239 [label=B]
+	236 -> 237 [label=A]
+	237 -> 238 [label=A]
+	238 -> 239 [label=A]
+	239 -> 240 [label="A, B"]
+	240 -> 241 [label=A]
+	240 -> 293 [label=B]
+	241 -> 242 [label=A]
+	242 -> 243 [label="A, B"]
+	243 -> 244 [label="A, B"]
+	244 -> 245 [label="A, B"]
+	245 -> 2 [label="A, B"]
+	246 -> 13 [label=B]
+	247 -> 248 [label=B]
+	248 -> 17 [label=B]
+	249 -> 27 [label=B]
+	250 -> 251 [label=B]
+	251 -> 252 [label=B]
+	252 -> 253 [label=B]
+	253 -> 254 [label=B]
+	254 -> 33 [label=B]
+	255 -> 38 [label=B]
+	256 -> 40 [label=B]
+	257 -> 43 [label=B]
+	258 -> 44 [label=B]
+	259 -> 46 [label=B]
+	260 -> 67 [label=B]
+	261 -> 71 [label=B]
+	262 -> 263 [label=B]
+	263 -> 85 [label=B]
+	264 -> 86 [label=B]
+	265 -> 88 [label=B]
+	266 -> 95 [label=B]
+	267 -> 100 [label=B]
+	268 -> 107 [label=B]
+	269 -> 114 [label=B]
+	270 -> 271 [label=B]
+	271 -> 272 [label=B]
+	272 -> 273 [label=B]
+	273 -> 124 [label=B]
+	274 -> 275 [label=B]
+	275 -> 136 [label=B]
+	276 -> 139 [label=B]
+	277 -> 143 [label=B]
+	278 -> 160 [label=B]
+	279 -> 166 [label=B]
+	280 -> 167 [label=B]
+	281 -> 174 [label=B]
+	282 -> 182 [label=B]
+	283 -> 284 [label=B]
+	284 -> 285 [label=B]
+	285 -> 197 [label=B]
+	286 -> 287 [label=B]
+	287 -> 213 [label=B]
+	288 -> 219 [label=B]
+	289 -> 222 [label=B]
+	290 -> 291 [label=B]
+	291 -> 292 [label=B]
+	292 -> 226 [label=B]
+	293 -> 242 [label=B]
+	{
+		graph [rank=same]
+		1
+	}
+	{
+		graph [rank=same]
+		3
+	}
+	{
+		graph [rank=same]
+		4
+	}
+	{
+		graph [rank=same]
+		5
+	}
+	{
+		graph [rank=same]
+		6
+	}
+	{
+		graph [rank=same]
+		7
+	}
+	{
+		graph [rank=same]
+		8
+	}
+	{
+		graph [rank=same]
+		9
+	}
+	{
+		graph [rank=same]
+		10
+	}
+	{
+		graph [rank=same]
+		11
+	}
+	{
+		graph [rank=same]
+		246
+		12
+	}
+	{
+		graph [rank=same]
+		13
+	}
+	{
+		graph [rank=same]
+		14
+	}
+	{
+		graph [rank=same]
+		15
+	}
+	{
+		graph [rank=same]
+		247
+		16
+	}
+	{
+		graph [rank=same]
+		248
+	}
+	{
+		graph [rank=same]
+		17
+	}
+	{
+		graph [rank=same]
+		18
+	}
+	{
+		graph [rank=same]
+		19
+	}
+	{
+		graph [rank=same]
+		20
+	}
+	{
+		graph [rank=same]
+		21
+	}
+	{
+		graph [rank=same]
+		22
+	}
+	{
+		graph [rank=same]
+		23
+	}
+	{
+		graph [rank=same]
+		24
+	}
+	{
+		graph [rank=same]
+		25
+	}
+	{
+		graph [rank=same]
+		249
+		26
+	}
+	{
+		graph [rank=same]
+		27
+	}
+	{
+		graph [rank=same]
+		28
+	}
+	{
+		graph [rank=same]
+		29
+	}
+	{
+		graph [rank=same]
+		250
+		30
+	}
+	{
+		graph [rank=same]
+		251
+		31
+	}
+	{
+		graph [rank=same]
+		252
+		32
+	}
+	{
+		graph [rank=same]
+		253
+	}
+	{
+		graph [rank=same]
+		254
+	}
+	{
+		graph [rank=same]
+		33
+	}
+	{
+		graph [rank=same]
+		34
+	}
+	{
+		graph [rank=same]
+		35
+	}
+	{
+		graph [rank=same]
+		36
+	}
+	{
+		graph [rank=same]
+		255
+		37
+	}
+	{
+		graph [rank=same]
+		38
+	}
+	{
+		graph [rank=same]
+		256
+		39
+	}
+	{
+		graph [rank=same]
+		40
+	}
+	{
+		graph [rank=same]
+		41
+	}
+	{
+		graph [rank=same]
+		42
+	}
+	{
+		graph [rank=same]
+		257
+	}
+	{
+		graph [rank=same]
+		43
+	}
+	{
+		graph [rank=same]
+		258
+	}
+	{
+		graph [rank=same]
+		44
+	}
+	{
+		graph [rank=same]
+		259
+		45
+	}
+	{
+		graph [rank=same]
+		46
+	}
+	{
+		graph [rank=same]
+		47
+	}
+	{
+		graph [rank=same]
+		48
+	}
+	{
+		graph [rank=same]
+		49
+	}
+	{
+		graph [rank=same]
+		50
+	}
+	{
+		graph [rank=same]
+		51
+	}
+	{
+		graph [rank=same]
+		52
+	}
+	{
+		graph [rank=same]
+		53
+	}
+	{
+		graph [rank=same]
+		260
+		54
+	}
+	{
+		graph [rank=same]
+		55
+	}
+	{
+		graph [rank=same]
+		56
+	}
+	{
+		graph [rank=same]
+		57
+	}
+	{
+		graph [rank=same]
+		58
+	}
+	{
+		graph [rank=same]
+		59
+	}
+	{
+		graph [rank=same]
+		60
+	}
+	{
+		graph [rank=same]
+		61
+	}
+	{
+		graph [rank=same]
+		62
+	}
+	{
+		graph [rank=same]
+		63
+	}
+	{
+		graph [rank=same]
+		64
+	}
+	{
+		graph [rank=same]
+		65
+	}
+	{
+		graph [rank=same]
+		66
+	}
+	{
+		graph [rank=same]
+		67
+	}
+	{
+		graph [rank=same]
+		68
+	}
+	{
+		graph [rank=same]
+		69
+	}
+	{
+		graph [rank=same]
+		70
+	}
+	{
+		graph [rank=same]
+		261
+	}
+	{
+		graph [rank=same]
+		71
+	}
+	{
+		graph [rank=same]
+		72
+	}
+	{
+		graph [rank=same]
+		73
+	}
+	{
+		graph [rank=same]
+		74
+	}
+	{
+		graph [rank=same]
+		75
+	}
+	{
+		graph [rank=same]
+		76
+	}
+	{
+		graph [rank=same]
+		77
+	}
+	{
+		graph [rank=same]
+		78
+	}
+	{
+		graph [rank=same]
+		79
+	}
+	{
+		graph [rank=same]
+		80
+	}
+	{
+		graph [rank=same]
+		81
+	}
+	{
+		graph [rank=same]
+		82
+	}
+	{
+		graph [rank=same]
+		83
+	}
+	{
+		graph [rank=same]
+		84
+	}
+	{
+		graph [rank=same]
+		262
+	}
+	{
+		graph [rank=same]
+		263
+	}
+	{
+		graph [rank=same]
+		85
+	}
+	{
+		graph [rank=same]
+		264
+	}
+	{
+		graph [rank=same]
+		86
+	}
+	{
+		graph [rank=same]
+		265
+		87
+	}
+	{
+		graph [rank=same]
+		88
+	}
+	{
+		graph [rank=same]
+		89
+	}
+	{
+		graph [rank=same]
+		90
+	}
+	{
+		graph [rank=same]
+		91
+	}
+	{
+		graph [rank=same]
+		92
+	}
+	{
+		graph [rank=same]
+		266
+		93
+	}
+	{
+		graph [rank=same]
+		94
+	}
+	{
+		graph [rank=same]
+		95
+	}
+	{
+		graph [rank=same]
+		96
+	}
+	{
+		graph [rank=same]
+		97
+	}
+	{
+		graph [rank=same]
+		98
+	}
+	{
+		graph [rank=same]
+		267
+		99
+	}
+	{
+		graph [rank=same]
+		100
+	}
+	{
+		graph [rank=same]
+		101
+	}
+	{
+		graph [rank=same]
+		102
+	}
+	{
+		graph [rank=same]
+		103
+	}
+	{
+		graph [rank=same]
+		104
+	}
+	{
+		graph [rank=same]
+		105
+	}
+	{
+		graph [rank=same]
+		268
+		106
+	}
+	{
+		graph [rank=same]
+		107
+	}
+	{
+		graph [rank=same]
+		108
+	}
+	{
+		graph [rank=same]
+		109
+	}
+	{
+		graph [rank=same]
+		110
+	}
+	{
+		graph [rank=same]
+		111
+	}
+	{
+		graph [rank=same]
+		112
+	}
+	{
+		graph [rank=same]
+		113
+	}
+	{
+		graph [rank=same]
+		269
+	}
+	{
+		graph [rank=same]
+		114
+	}
+	{
+		graph [rank=same]
+		115
+	}
+	{
+		graph [rank=same]
+		116
+	}
+	{
+		graph [rank=same]
+		117
+	}
+	{
+		graph [rank=same]
+		270
+		118
+	}
+	{
+		graph [rank=same]
+		271
+		119
+	}
+	{
+		graph [rank=same]
+		272
+		120
+	}
+	{
+		graph [rank=same]
+		273
+		121
+	}
+	{
+		graph [rank=same]
+		122
+	}
+	{
+		graph [rank=same]
+		123
+	}
+	{
+		graph [rank=same]
+		124
+	}
+	{
+		graph [rank=same]
+		125
+	}
+	{
+		graph [rank=same]
+		126
+	}
+	{
+		graph [rank=same]
+		127
+	}
+	{
+		graph [rank=same]
+		128
+	}
+	{
+		graph [rank=same]
+		129
+	}
+	{
+		graph [rank=same]
+		130
+	}
+	{
+		graph [rank=same]
+		131
+	}
+	{
+		graph [rank=same]
+		132
+	}
+	{
+		graph [rank=same]
+		133
+	}
+	{
+		graph [rank=same]
+		274
+		134
+	}
+	{
+		graph [rank=same]
+		275
+		135
+	}
+	{
+		graph [rank=same]
+		136
+	}
+	{
+		graph [rank=same]
+		137
+	}
+	{
+		graph [rank=same]
+		276
+		138
+	}
+	{
+		graph [rank=same]
+		139
+	}
+	{
+		graph [rank=same]
+		140
+	}
+	{
+		graph [rank=same]
+		141
+	}
+	{
+		graph [rank=same]
+		277
+		142
+	}
+	{
+		graph [rank=same]
+		143
+	}
+	{
+		graph [rank=same]
+		144
+	}
+	{
+		graph [rank=same]
+		145
+	}
+	{
+		graph [rank=same]
+		146
+	}
+	{
+		graph [rank=same]
+		147
+	}
+	{
+		graph [rank=same]
+		148
+	}
+	{
+		graph [rank=same]
+		149
+	}
+	{
+		graph [rank=same]
+		150
+	}
+	{
+		graph [rank=same]
+		151
+	}
+	{
+		graph [rank=same]
+		152
+	}
+	{
+		graph [rank=same]
+		153
+	}
+	{
+		graph [rank=same]
+		154
+	}
+	{
+		graph [rank=same]
+		155
+	}
+	{
+		graph [rank=same]
+		156
+	}
+	{
+		graph [rank=same]
+		157
+	}
+	{
+		graph [rank=same]
+		158
+	}
+	{
+		graph [rank=same]
+		278
+		159
+	}
+	{
+		graph [rank=same]
+		160
+	}
+	{
+		graph [rank=same]
+		161
+	}
+	{
+		graph [rank=same]
+		162
+	}
+	{
+		graph [rank=same]
+		163
+	}
+	{
+		graph [rank=same]
+		164
+	}
+	{
+		graph [rank=same]
+		165
+	}
+	{
+		graph [rank=same]
+		279
+	}
+	{
+		graph [rank=same]
+		166
+	}
+	{
+		graph [rank=same]
+		280
+	}
+	{
+		graph [rank=same]
+		167
+	}
+	{
+		graph [rank=same]
+		168
+	}
+	{
+		graph [rank=same]
+		281
+		169
+	}
+	{
+		graph [rank=same]
+		170
+	}
+	{
+		graph [rank=same]
+		171
+	}
+	{
+		graph [rank=same]
+		172
+	}
+	{
+		graph [rank=same]
+		173
+	}
+	{
+		graph [rank=same]
+		174
+	}
+	{
+		graph [rank=same]
+		175
+	}
+	{
+		graph [rank=same]
+		176
+	}
+	{
+		graph [rank=same]
+		177
+	}
+	{
+		graph [rank=same]
+		178
+	}
+	{
+		graph [rank=same]
+		179
+	}
+	{
+		graph [rank=same]
+		180
+	}
+	{
+		graph [rank=same]
+		282
+		181
+	}
+	{
+		graph [rank=same]
+		182
+	}
+	{
+		graph [rank=same]
+		183
+	}
+	{
+		graph [rank=same]
+		184
+	}
+	{
+		graph [rank=same]
+		185
+	}
+	{
+		graph [rank=same]
+		186
+	}
+	{
+		graph [rank=same]
+		187
+	}
+	{
+		graph [rank=same]
+		188
+	}
+	{
+		graph [rank=same]
+		189
+	}
+	{
+		graph [rank=same]
+		190
+	}
+	{
+		graph [rank=same]
+		191
+	}
+	{
+		graph [rank=same]
+		192
+	}
+	{
+		graph [rank=same]
+		193
+	}
+	{
+		graph [rank=same]
+		283
+		194
+	}
+	{
+		graph [rank=same]
+		284
+		195
+	}
+	{
+		graph [rank=same]
+		285
+		196
+	}
+	{
+		graph [rank=same]
+		197
+	}
+	{
+		graph [rank=same]
+		198
+	}
+	{
+		graph [rank=same]
+		199
+	}
+	{
+		graph [rank=same]
+		200
+	}
+	{
+		graph [rank=same]
+		201
+	}
+	{
+		graph [rank=same]
+		202
+	}
+	{
+		graph [rank=same]
+		203
+	}
+	{
+		graph [rank=same]
+		204
+	}
+	{
+		graph [rank=same]
+		205
+	}
+	{
+		graph [rank=same]
+		206
+	}
+	{
+		graph [rank=same]
+		207
+	}
+	{
+		graph [rank=same]
+		286
+		208
+	}
+	{
+		graph [rank=same]
+		287
+		209
+	}
+	{
+		graph [rank=same]
+		210
+	}
+	{
+		graph [rank=same]
+		211
+	}
+	{
+		graph [rank=same]
+		212
+	}
+	{
+		graph [rank=same]
+		213
+	}
+	{
+		graph [rank=same]
+		214
+	}
+	{
+		graph [rank=same]
+		215
+	}
+	{
+		graph [rank=same]
+		288
+		216
+	}
+	{
+		graph [rank=same]
+		217
+	}
+	{
+		graph [rank=same]
+		218
+	}
+	{
+		graph [rank=same]
+		219
+	}
+	{
+		graph [rank=same]
+		220
+	}
+	{
+		graph [rank=same]
+		289
+		221
+	}
+	{
+		graph [rank=same]
+		222
+	}
+	{
+		graph [rank=same]
+		290
+		223
+	}
+	{
+		graph [rank=same]
+		291
+		224
+	}
+	{
+		graph [rank=same]
+		292
+		225
+	}
+	{
+		graph [rank=same]
+		226
+	}
+	{
+		graph [rank=same]
+		227
+	}
+	{
+		graph [rank=same]
+		228
+	}
+	{
+		graph [rank=same]
+		229
+	}
+	{
+		graph [rank=same]
+		230
+	}
+	{
+		graph [rank=same]
+		231
+	}
+	{
+		graph [rank=same]
+		232
+	}
+	{
+		graph [rank=same]
+		233
+	}
+	{
+		graph [rank=same]
+		234
+	}
+	{
+		graph [rank=same]
+		235
+	}
+	{
+		graph [rank=same]
+		236
+	}
+	{
+		graph [rank=same]
+		237
+	}
+	{
+		graph [rank=same]
+		238
+	}
+	{
+		graph [rank=same]
+		239
+	}
+	{
+		graph [rank=same]
+		240
+	}
+	{
+		graph [rank=same]
+		293
+		241
+	}
+	{
+		graph [rank=same]
+		242
+	}
+	{
+		graph [rank=same]
+		243
+	}
+	{
+		graph [rank=same]
+		244
+	}
+	{
+		graph [rank=same]
+		245
+	}
+	{
+		graph [rank=same]
+		2
+	}
+}
