@@ -4,7 +4,7 @@ This repository contains data and scripts for a collation processing workflow fo
 
 1. **Input**. The text of each of the different witnesses should be put in a `.txt` file; all these text files should be collected inside a folder `data/yourText/txt`.
 2. **Pre-processing** (linguistic annotation). Before the collation, the texts are annotated with linguistic information such as lemma and part of speech. This step is perfomed using Freeling (its Python API) for Old Spanish. For Old French we recommend the use of Pie/Pandora.
-3. **Collation**. The collation itself is done using CollateX. For the alignment, the lemma of each token is used. The rest of the info attached to each token can be retrieved in any moment, for visualization and further processing. We use it for adding a category to the variant, such as substantial, formal, morphological, etc.
+3. **Collation**. The collation itself is done using [CollateX](https://pypi.org/project/collatex/). For the alignment, the lemma of each token is used. The rest of the info attached to each token can be retrieved in any moment, for visualization and further processing. We use it for adding a category to the variant, such as substantial, formal, morphological, etc.
 
 Please note that you can go directly to step 3 only if you provide a file xml with the necessary info and structure, as indicated [below](#xml).
 
@@ -50,23 +50,19 @@ they must be in TEI, and contain `<w>` tags,
 with `@lemma`, and possibly `@pos` and `@msd` tags,
 
 ```xml
-<w 
-  lemma="mëisme" 
-  pos="ADJind" 
-  msd="NOMB.=s|GENRE=m|CAS=r"
->meisme</w>
+<w
+  lemma='mucho'
+  pos='DI0FP0'
+>muchas</w>
 ```
 Or, possibly, use an `@type`,
 
 ```xml
 <w 
-  lemma="mëisme"
-  type="ADJind|NOMB.=s|GENRE=m|CAS=r"
->meisme</w>
+  lemma="mucho"
+  type="DI0FP0"
+>muchas</w>
 ```
-
-
-![collazione](https://upload.wikimedia.org/wikipedia/commons/8/8a/Barista_Fair_Trade_Coffee%2C_Gotgatan_67%2C_cappucino_%284386813991%29.jpg "Due cappucini")
 
 
 <span id="freeling"></span>
@@ -92,19 +88,24 @@ cmake .. -DPYTHON3_API=ON`
 ```
 
 - Fix and test old spanish 'es-old' configuration file
-	- Change in /usr/local/share/freeling/es/es-old/dicc.src --> lines 1 to 5 become
+
+Change in /usr/local/share/freeling/es/es-old/dicc.src --> lines 1 to 5 become
+```xml
 <IndexType>
 DB_MAP
-</IndexType>
+<\IndexType>
 <Entries>
 &cetera etcétera Fs etcétera NCMS000
-	- Change in es-old.cfg --> line 77, path was mistaken --> ProbabilityFile=$FREELINGSHARE/es/es-old/probabilitats.dat
-	- Change in es-old/probabilitats.dat --> line 13, path was mistaken --> ../tagset.dat
-	- Change in es-old/constr_gram.dat -->	find and replace '\t\*' > '\tXX\*'
-										find and replace ' \*\);' > ' XX\*\);'
-	- Change in es-old/tagger.dat --> line 2, path was mistaken --> ../tagset.dat
+```
+Change in es-old.cfg --> line 77, path was mistaken --> ProbabilityFile=$FREELINGSHARE/es/es-old/probabilitats.dat
 
-Test
+Change in es-old/probabilitats.dat --> line 13, path was mistaken --> ../tagset.dat
+
+Change in es-old/constr_gram.dat -->	find and replace '\t\*' > '\tXX\*'
+										find and replace ' \*\);' > ' XX\*\);'
+Change in es-old/tagger.dat --> line 2, path was mistaken --> ../tagset.dat
+
+<b>Test</b>
 ```bash
 /usr/local/bin/analyze -f es-old.cfg < Desktop/ms6376.txt
 ```
