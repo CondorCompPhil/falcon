@@ -1,5 +1,5 @@
 
-#Test of macro alignment with [Tracer](https://www.etrap.eu/research/tracer/).
+# Test of macro alignment with [Tracer](https://www.etrap.eu/research/tracer/).
 
 
 Macro-alignment is useful to identify corresponding sections to collate.
@@ -11,7 +11,7 @@ Macro-alignment is useful to identify corresponding sections to collate.
 
 
 ## Steps
-1. Run Tracer and output results in tabular format, see [Tracer manual](https://gfranzini.gitbooks.io/tracer/content/beta/results-as-csv.html). For preparing the data for Tracer follow the manual; some [Python scripts](https://github.com/mikekestemont/potter/blob/master/harry/intertextuality/intertextuality.ipynb) and [R scripts](https://github.com/editio/tracer-scripts) are also available
+1. For preparing the data for Tracer follow Tracer manual, section [Corpus preparation](https://gfranzini.gitbooks.io/tracer/content/manual/corpus-preparation.html) (some [Python scripts](https://github.com/mikekestemont/potter/blob/master/harry/intertextuality/intertextuality.ipynb) and [R scripts](https://github.com/editio/tracer-scripts) are also available). Run Tracer and output results in tabular format, as explained in the manual, section [Results as csv (beta)](https://gfranzini.gitbooks.io/tracer/content/beta/results-as-csv.html). 
 2. Deduplicate results. For example with `sort -u myfile.csv -o myfile.csv`
 3. Run `reorderTracerTable4collation.py` on results
 
