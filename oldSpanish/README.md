@@ -3,7 +3,7 @@
 This repository contains data and scripts for a collation processing workflow for Old Spanish, and it's evaluation.
 
 1. **Input**. The text of each of the different witnesses should be put in a `.txt` file; all these text files should be collected inside a folder `data/yourText/txt`.
-2. **Pre-processing** (linguistic annotation). Before the collation, the texts are annotated with linguistic information such as lemma and part of speech. This step is perfomed using Freeling (its Python API) for Old Spanish. For Old French we recommend the use of Pie/Pandora.
+2. **Pre-processing** (linguistic annotation). Before the collation, the texts are annotated with linguistic information such as lemma and part of speech. This step is perfomed using [Freeling](http://nlp.lsi.upc.edu/freeling/) (its Python API) for Old Spanish. For Old French we recommend the use of Pie/Pandora, as indicated elsewhere in this repo.
 3. **Collation**. The collation itself is done using [CollateX](https://pypi.org/project/collatex/). For the alignment, the lemma of each token is used. The rest of the info attached to each token can be retrieved in any moment, for visualization and further processing. We use it for adding a category to the variant, such as substantial, formal, morphological, etc.
 
 Please note that you can go directly to step 3 only if you provide a file xml with the necessary info and structure, as indicated [below](#xml).
@@ -101,8 +101,8 @@ Change in es-old.cfg --> line 77, path was mistaken --> ProbabilityFile=$FREELIN
 
 Change in es-old/probabilitats.dat --> line 13, path was mistaken --> ../tagset.dat
 
-Change in es-old/constr_gram.dat -->	find and replace '\t\*' > '\tXX\*'
-										find and replace ' \*\);' > ' XX\*\);'
+Change in es-old/constr_gram.dat -->	find and replace '\t\*' > '\tXX\*' ; and find and replace ' \*\);' > ' XX\*\);'
+
 Change in es-old/tagger.dat --> line 2, path was mistaken --> ../tagset.dat
 
 <b>Test</b>
@@ -110,7 +110,10 @@ Change in es-old/tagger.dat --> line 2, path was mistaken --> ../tagset.dat
 /usr/local/bin/analyze -f es-old.cfg < Desktop/ms6376.txt
 ```
 
-- Test the Python api, as indicated here: https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/calling-freeling-library-from-languages-other-than-c++/apis-linux#python
+- Test the Python api, as indicated here
+
+https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/calling-freeling-library-from-languages-other-than-c++/apis-linux#python
+
 Text for test should be at list one sentence for the program to be able to detect language. Default lang is spanish.
 	
 ```bash
