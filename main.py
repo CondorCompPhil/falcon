@@ -28,8 +28,8 @@ if __name__ == "__main__":
         table = collatex.collate(json_input, output="table", layout="vertical", segmentation=False, near_match=True)
         xml_output = coll.table_to_xml(table)
 
-        with open(args.folder_path + "out.xml", 'w') as f:
+        with open(args.folder_path.split("/sources")[0] + "/out.xml", 'w') as f:
             print(xml_output, file=f)
 
-        with open(args.folder_path + "out.txt", 'w') as f:
+        with open(args.folder_path.split("/sources")[0] + "/out.txt", 'w') as f:
             print(table, file=f)

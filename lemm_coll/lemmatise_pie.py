@@ -54,7 +54,7 @@ def xmlify(content):
     """
 
     env = Environment(
-        loader=PackageLoader('collazione', 'templates'),
+        loader=PackageLoader('lemm_coll', 'templates'),
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('geste.xml')
