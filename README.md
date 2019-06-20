@@ -14,11 +14,11 @@ This repository contains data and scripts for a collation processing workflow, a
 virtualenv env -p python3
 source env/bin/activate
 # end recommended steps, begin install
-
-# install everything needed for linguistic annotation of the texts using Pie and for collation
-# installation requirements for medieval Spanish only are listed below
 pip install -r requirements.txt
 ```
+
+Please note that installation requirements for medieval Spanish only are listed <a href="freeling">below</a>.
+
 
 
 ## Sample usage
@@ -168,4 +168,14 @@ cd /usr/local/share/freeling/APIs/python3
 python sample.py < mytext.txt > mytextOUTPUT.txt
 ```
 
+**Once Freeling is installed, install what is needed for this pipeline**
 
+All you need is
+
+```bash
+# Recommended steps (use virtualenv)
+virtualenv env -p python3
+source env/bin/activate
+# end recommended steps, begin install
+pip install -r requirements_spo.txt
+```
