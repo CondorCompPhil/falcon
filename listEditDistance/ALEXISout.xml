@@ -1,0 +1,79 @@
+<root>
+    <app>
+        <rdg wit="#A" id="w_1" lemma="en1" pos="PRE" msd="MORPH=empty">En</rdg>
+        <rdg wit="#L" id="w_1" lemma="plorer" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p"
+            >Plurent</rdg>
+        <rdg wit="#P" id="w_1" lemma="plorer" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+            >Plore</rdg>
+        <rdg wit="#S" id="w_1" lemma="plorer" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+            >Pleure</rdg>
+        <rdg wit="#V" id="w_1" lemma="avoir" pos="PRE" msd="MORPH=empty">Ad</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_2" lemma="haut" pos="ADJqua" msd="NOMB.=s|GENRE=f|CAS=r|DEGRE=p"
+            >halte</rdg>
+        <rdg wit="#L" id="w_2" lemma="son4" pos="DETpos" msd="DEGRE=-">si</rdg>
+        <rdg wit="#P" id="w_2" lemma="de+le" pos="PRE.DETdef" msd="NOMB.=p|GENRE=m|CAS=r">des</rdg>
+        <rdg wit="#S" id="w_2" lemma="de+le" pos="PRE.DETdef" msd="NOMB.=p|GENRE=m|CAS=r">des</rdg>
+        <rdg wit="#V" id="w_2" lemma="autel1" pos="DETind" msd="NOMB.=p|GENRE=f|CAS=r">altes</rdg>
+    </app>
+    <app>
+        <rdg wit="#L" id="w_3" lemma="ueil" pos="NOMcom" msd="NOMB.=p|GENRE=m|CAS=n">oil</rdg>
+        <rdg wit="#P" id="w_3" lemma="ueil" pos="NOMcom" msd="NOMB.=p|GENRE=m|CAS=r">oilz</rdg>
+        <rdg wit="#S" id="w_3" lemma="ueil" pos="NOMcom" msd="NOMB.=p|GENRE=m|CAS=r">oels</rdg>
+    </app>
+    <app>
+        <rdg wit="#L" id="w_4" lemma="et" pos="CONcoo" msd="MORPH=empty">e</rdg>
+        <rdg wit="#P" id="w_4" lemma="et" pos="CONcoo" msd="MORPH=empty">et</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_3" lemma="voiz" pos="NOMcom" msd="NOMB.=s|GENRE=f|CAS=r">voiz</rdg>
+        <rdg wit="#L" id="w_5" lemma="si" pos="ADVgen" msd="DEGRE=-">si</rdg>
+        <rdg wit="#S" id="w_4" lemma="si" pos="ADVgen" msd="DEGRE=-">si</rdg>
+        <rdg wit="#V" id="w_3" lemma="voiz" pos="NOMcom" msd="NOMB.=p|GENRE=f|CAS=r">voiz</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_4" lemma="prendre" pos="VERcjg" msd="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s"
+            >prist</rdg>
+        <rdg wit="#L" id="w_6" lemma="jeter" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+            >jetet</rdg>
+        <rdg wit="#P" id="w_5" lemma="jeter" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+            >gete</rdg>
+        <rdg wit="#S" id="w_5" lemma="escrïer" pos="VERcjg" msd="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+            >escrie</rdg>
+        <rdg wit="#V" id="w_4" lemma="prendre" pos="VERcjg" msd="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s"
+            >prist</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_5" lemma="a3" pos="PRE" msd="MORPH=empty">a</rdg>
+        <rdg wit="#P" id="w_6" lemma="mout" pos="ADVgen" msd="DEGRE=-">mult</rdg>
+        <rdg wit="#S" id="w_6" lemma="a3" pos="PRE" msd="MORPH=empty">a</rdg>
+        <rdg wit="#V" id="w_5" lemma="a3" pos="PRE" msd="MORPH=empty">a</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_6" lemma="crïer2" pos="VERinf" msd="MORPH=empty">crier</rdg>
+        <rdg wit="#V" id="w_6" lemma="crïer2" pos="VERinf" msd="MORPH=empty">crier</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_7" lemma="grant" pos="ADJqua" msd="NOMB.=p|GENRE=m|CAS=r|DEGRE=p"
+            >grans</rdg>
+        <rdg wit="#L" id="w_7" lemma="grant" pos="ADJqua" msd="NOMB.=s|GENRE=m|CAS=n|DEGRE=p"
+            >granz</rdg>
+        <rdg wit="#P" id="w_7" lemma="grant" pos="ADJqua" msd="NOMB.=s|GENRE=m|CAS=n|DEGRE=p"
+            >grans</rdg>
+        <rdg wit="#S" id="w_7" lemma="haut" pos="ADJqua" msd="NOMB.=p|GENRE=m|CAS=r|DEGRE=p"
+            >haus</rdg>
+        <rdg wit="#V" id="w_7" lemma="grant" pos="ADJqua" msd="NOMB.=s|GENRE=m|CAS=r|DEGRE=p"
+            >grant</rdg>
+    </app>
+    <app>
+        <rdg wit="#A" id="w_8" lemma="mois" pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=r">cris</rdg>
+        <rdg wit="#L" id="w_8" lemma="cri" pos="NOMcom" msd="NOMB.=p|GENRE=m|CAS=n">criz</rdg>
+        <rdg wit="#P" id="w_8" lemma="mois" pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=n">cris</rdg>
+        <rdg wit="#S" id="w_8" lemma="mois" pos="NOMcom" msd="NOMB.=p|GENRE=m|CAS=r">cris</rdg>
+        <rdg wit="#V" id="w_8" lemma="cri" pos="NOMcom" msd="NOMB.=s|GENRE=m|CAS=r">cri</rdg>
+    </app>
+
+
+
+</root>
