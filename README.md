@@ -37,8 +37,15 @@ python3 main.py <path> [--collate]
 python3 main.py <path> [--lemmatise] [lang] [engine] [--collate]
 ```
 
-More info about usage and examples are available <a href="#info">below</a>.
+To evaluate the results:
 
+```bash
+python eval.py <path_to_gt> <path_to_results> [--print_diff]
+# e.g., evaluate Alexis results
+python eval.py data/eval/alexis/ALEXIS_gt.xml data/eval/alexis/ALEXIS_out.xml
+```
+
+More info about usage and examples are available <a href="#info">below</a>.
 
 ## Format for XML annotated files
 
