@@ -29,6 +29,14 @@ python3 main.py data/input/chevLyon/xml --collate
 python3 main.py data/preproc/chevLyon/txt --lemmatise --collate
 ```
 
+To evaluate the results:
+
+```bash
+python eval.py <path_to_gt> <path_to_results>
+# e.g., evaluate Alexis results
+python eval.py data/eval/alexis/ALEXIS_gt.xml data/eval/alexis/ALEXIS_out.xml
+```
+
 ## Format for XML annotated files
 
 If you want to use directly XML annotated files,
