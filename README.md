@@ -1,4 +1,6 @@
-# Collazione
+<img src="logo/falconLogo.png" alt="falcon logo" width="50%"/>
+
+# Falcon
 
 This repository contains data and scripts for a collation processing workflow, and it's evaluation.
 
@@ -70,11 +72,8 @@ Or, possibly, use an `@type`,
 ```
 
 
-![collazione](https://upload.wikimedia.org/wikipedia/commons/8/8a/Barista_Fair_Trade_Coffee%2C_Gotgatan_67%2C_cappucino_%284386813991%29.jpg "Due cappucini")
-
-
 <span id="info"></span>
-## Usage additional info
+## Examples and usage additional info
 
 ### Lemmatisation
 
@@ -125,6 +124,9 @@ python3 main.py data/input/chevLyon/sources --lemmatise fro pie --collate
 ```
 
 <br/><br/><br/>
+
+![collazione](https://upload.wikimedia.org/wikipedia/commons/8/8a/Barista_Fair_Trade_Coffee%2C_Gotgatan_67%2C_cappucino_%284386813991%29.jpg "Due cappucini")
+
 
 <span id="freeling"></span>
 
