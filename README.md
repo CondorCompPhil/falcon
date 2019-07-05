@@ -1,6 +1,4 @@
-<img src="logo/falconLogo.png" alt="falcon logo" width="50%"/>
-
-# Falcon
+<img src="logo/falconLogo.png" alt="falcon logo" style="border:none" />
 
 This repository contains data and scripts for a collation processing workflow, and it's evaluation.
 
