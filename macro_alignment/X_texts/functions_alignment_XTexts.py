@@ -70,6 +70,20 @@ def XMLtoJson(xmlInput,iden):
                 <xsl:value-of select="@lemma"/>
             </xsl:otherwise>
         </xsl:choose>
+        <xsl:if test="@pos">
+        <xsl:text>", "pos": "</xsl:text>
+        <xsl:value-of select="@pos"/>
+        <xsl:choose>
+        <xsl:when test="@msd">
+        <xsl:text>", "morph": "</xsl:text>
+        <xsl:value-of select="@msd"/>
+        </xsl:when>
+        <xsl:otherwise>
+        <xsl:text>", "morph": "empty</xsl:text>
+        </xsl:otherwise>
+        </xsl:choose>
+        </xsl:if>
+        
         <xsl:text>"}</xsl:text>
         <xsl:if test="following::tei:w">
             <xsl:text>,&#10;</xsl:text>
@@ -187,6 +201,8 @@ def prodXML(val,listev,cle):
         iden = i["id"]
         text = i["text"]
         pos = i["n"]
+        po = i["pos"]
+        m = i["morph"]
         # if the id is in the list of ids which match
         if iden in listev:
             # creation of an id for paragraph (more 1 because I will need a 0 value)
@@ -200,6 +216,8 @@ def prodXML(val,listev,cle):
         e = etree.SubElement(root, "w")
         e.set("{http://www.w3.org/XML/1998/namespace}id", iden)
         e.set("lemma", l)
+        e.set("pos",po)
+        e.set("msd",m)
         e.text = text
     #creation of the first XML
     doc = etree.tostring(root, pretty_print=True, encoding='UTF-8', xml_declaration=True)
