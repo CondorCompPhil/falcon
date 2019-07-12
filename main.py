@@ -1,5 +1,6 @@
 import collazione.collation as coll
 import collazione.lemmatise as lemm
+import collazione.simple as simple
 import collatex
 
 if __name__ == "__main__":
@@ -7,12 +8,16 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('folder_path', help="unix string")
+    parser.add_argument('--simple', action='store_true')
     parser.add_argument('--collate', action='store_true')
     parser.add_argument('--lemmatise', action='store_true')
     parser.add_argument('lang', action='store', choices=['fro', 'spo'])  # choices generate
     # error messages if arg is not correct, can be useful
     parser.add_argument('engine', action='store', choices=['pie', 'freeling'])
     args = parser.parse_args()
+
+    if args.simple:
+        simple.collateSimple(args.folder_path)
  
     if args.lemmatise:
         # path = "./data/preproc/chevLyon/txt"
