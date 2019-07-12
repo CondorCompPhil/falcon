@@ -1,6 +1,6 @@
-import collazione.collation as coll
-import collazione.lemmatise as lemm
-import collazione.simple as simple
+import falcon.collation as coll
+import falcon.lemmatise as lemm
+import falcon.simple as simple
 import collatex
 
 if __name__ == "__main__":
@@ -11,9 +11,9 @@ if __name__ == "__main__":
     parser.add_argument('--simple', action='store_true')
     parser.add_argument('--collate', action='store_true')
     parser.add_argument('--lemmatise', action='store_true')
-    parser.add_argument('--lang', action='store', choices=['fro', 'spo'])  # choices generate
+    parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro')  # choices generate
     # error messages if arg is not correct, can be useful
-    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'])
+    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'], default='pie')
     args = parser.parse_args()
 
     if args.simple:
