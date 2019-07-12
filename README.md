@@ -27,14 +27,14 @@ Please note that installation requirements for medieval Spanish only are listed 
 
 ```bash
 # Lemmatise raw (txt) files for ulterior collation
-python3 main.py <path> [--lemmatise] [lang] [engine]
+python3 main.py <path> [--lemmatise] [--lang] [--engine]
 
 # Collate annotated files in XML
 # containing (possibly human-corrected) linguistic information
 python3 main.py <path> [--collate]
 
 # Or, alternatively, do it all in one row
-python3 main.py <path> [--lemmatise] [lang] [engine] [--collate]
+python3 main.py <path> [--lemmatise] [--lang] [--engine] [--collate]
 ```
 
 To evaluate the results:

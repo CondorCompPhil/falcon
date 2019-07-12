@@ -7,7 +7,7 @@
 ## For example:
 ##     ./this_file.py <test.txt >test_out.txt
 
-from collazione.freeling import pyfreeling
+from falcon.freeling import pyfreeling
 import sys, os, glob
 
 ## ------------  output a parse tree ------------

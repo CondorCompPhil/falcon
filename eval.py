@@ -1,4 +1,4 @@
-import collazione.evaluation as eval
+import falcon.evaluation as eval
 
 if __name__ == "__main__":
     import argparse
