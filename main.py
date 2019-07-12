@@ -11,9 +11,9 @@ if __name__ == "__main__":
     parser.add_argument('--simple', action='store_true')
     parser.add_argument('--collate', action='store_true')
     parser.add_argument('--lemmatise', action='store_true')
-    parser.add_argument('lang', action='store', choices=['fro', 'spo'])  # choices generate
+    parser.add_argument('--lang', action='store', choices=['fro', 'spo'])  # choices generate
     # error messages if arg is not correct, can be useful
-    parser.add_argument('engine', action='store', choices=['pie', 'freeling'])
+    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'])
     args = parser.parse_args()
 
     if args.simple:
