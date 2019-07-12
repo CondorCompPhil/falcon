@@ -1,4 +1,4 @@
-Collation et évalutation :
+Collation et évaluation manuelle
 
 
 - scriptBase.ipynb s'exécute dans jupyter, directement sur le texte
@@ -14,6 +14,8 @@ Collation et évalutation :
 - dans le dossier results : les deux doc HTML produits par scriptQuiFonctionne.py (version lemmes corrigés/non corrigés) -> on a pris ces tables pour l'évaluation
 
 - scriptBase.ipynb : directement sur les versions .txt, on récupère la table produite dans le notebook pour l'évaluation
+
+
 
 -----------------------------------------
 - l'évaluation se trouve dans les fichiers .ods.
