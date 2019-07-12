@@ -45,6 +45,15 @@ python eval.py <path_to_gt> <path_to_results> [--print_diff]
 python eval.py data/eval/alexis/ALEXIS_gt.xml data/eval/alexis/ALEXIS_out.xml
 ```
 
+For simple collation from the txt sources, without preprocessing:
+
+```bash
+python main.py <path> [--simple]
+# e.g., evaluate Alexis results
+python main.py data/eval/alexis/sources --simple
+```
+
+
 More info about usage and examples are available <a href="#info">below</a>.
 
 ## Format for XML annotated files
