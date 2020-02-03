@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <body xml:lang="fro">
+            <div>
+                {% for sent in sentences %}
+                <s>
+                {% for token in sent %}
+                    <w xml:id="{{token.id}}" n="{{token.order_id}}" lemma="{{token.lemma}}"
+                       pos="{{token.pos}}" msd="{% if token.morph and token.morph != "None" %}{{token.morph}}{% endif %}" >{{token.form}}</w>{% endfor %}
+                </s>{% endfor %}
+            </div>
+       </body>
+     </text>
+</TEI>
