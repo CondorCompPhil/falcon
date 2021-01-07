@@ -12,7 +12,7 @@ idna==2.8
 Jinja2==2.10.1
 jmespath==0.9.4
 JSON-minify==0.3.0
-lxml==4.3.3
+lxml==4.6.2
 networkx==2.3
 nlp-pie==0.2.2
 numpy==1.14.3
