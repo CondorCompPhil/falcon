@@ -9,7 +9,7 @@ docutils==0.14
 gensim==3.4.0
 graphviz==0.10.1
 idna==2.8
-Jinja2==2.10.1
+Jinja2==2.11.3
 jmespath==0.9.4
 JSON-minify==0.3.0
 lxml==4.6.3
