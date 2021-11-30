@@ -14,7 +14,7 @@ jmespath==0.9.4
 JSON-minify==0.3.0
 lxml==4.6.3
 networkx==2.3
-nlp-pie==0.2.2
+nlp-pie==0.2.5
 numpy==1.14.3
 prettytable==0.7.2
 python-dateutil==2.8.0

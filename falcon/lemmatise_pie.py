@@ -57,14 +57,17 @@ def xmlify(content):
         loader=PackageLoader('falcon', 'templates'),
         autoescape=select_autoescape(['html', 'xml'])
     )
-    template = env.get_template('geste.xml')
+    #template = env.get_template('geste.xml')
+    template = env.get_template('geste_with_sents.xml')
 
     documents = {}
 
     for wit in content:
-        tokens = [t for sent in content[wit] for t in sent]
+        #tokens = [t for sent in content[wit] for t in sent]
+        sentences = [sent for sent in content[wit]]
         # if format == "tei-geste": Right now only 1 format
-        documents[wit] = template.render(tokens=tokens)
+        #documents[wit] = template.render(tokens=tokens)
+        documents[wit] = template.render(sentences=sentences)
 
     return documents
 

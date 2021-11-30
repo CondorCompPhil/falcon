@@ -3,7 +3,7 @@
 This repository contains data and scripts for a collation processing workflow, and it's evaluation.
 
 <!-- TODO: name to be altered-->
-- `collazione`: Python code;
+- `falcon`: Python code;
 - `data`: contains pre-processed data (sources in txt or xml), input data, and manually annotated validation data for comparison.
 
 
