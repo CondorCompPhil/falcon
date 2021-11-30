@@ -11,7 +11,7 @@ def collateSimple(path):
 		add it to collation
 	'''
 
-	sources = glob.glob("data/input/alexis/sources"+'/*.txt')
+	sources = glob.glob(path+'/*.txt')
 
 	for wit in sources:
 		witName = os.path.basename(wit).split(".")[0]
