@@ -11,7 +11,7 @@ This repository contains data and scripts for a collation processing workflow, a
 
 ```bash
 # Recommended steps (use virtualenv)
-virtualenv env -p python3
+virtualenv env -p python3.8
 source env/bin/activate
 # end recommended steps
 
@@ -42,7 +42,7 @@ To evaluate the results:
 ```bash
 python eval.py <path_to_gt> <path_to_results> [--print_diff]
 # e.g., evaluate Alexis results
-python eval.py data/eval/alexis/ALEXIS_gt.xml data/eval/alexis/ALEXIS_out.xml
+python eval.py data/eval/alexis/gt.xml data/eval/alexis/simple.xml
 ```
 
 For simple collation from the txt sources, without preprocessing:
@@ -98,10 +98,14 @@ old French annotated using [Pie](https://github.com/emanjavacas/pie), as in this
 python3 main.py data/input/chevLyon/sources --lemmatise --lang fro --engine pie
 ```
 
+
+<!--TODO: is it still up to date?
+
 medieval Spanish annotated using [Freeling](http://nlp.lsi.upc.edu/freeling/), as in this example
 ```bash
-python3 main.py data/input/lucanor/sources --lemmatise --lang spo --engine freeling
+python3 main.py data/input/lucanor/sources -\-lemmatise -\-lang spo -\-engine freeling
 ```
+-->
 
 ### Collation
 
@@ -132,9 +136,8 @@ python3 main.py data/input/chevLyon/sources --lemmatise --lang fro --engine pie 
 
 <br/><br/><br/>
 
-![collazione](https://upload.wikimedia.org/wikipedia/commons/8/8a/Barista_Fair_Trade_Coffee%2C_Gotgatan_67%2C_cappucino_%284386813991%29.jpg "Due cappucini")
 
-
+<!--
 <span id="freeling"></span>
 
 ## Freeling installation for this pipeline
@@ -153,12 +156,12 @@ cmake .. -DPYTHON3_API=ON`
 
 ```bash
 /usr/local/bin/analyze -f en.cfg < Desktop/mytext.txt
-/usr/local/bin/analyze -f en.cfg < Desktop/mytext.txt --output xml
+/usr/local/bin/analyze -f en.cfg < Desktop/mytext.txt -\-output xml
 ```
 
 - Fix and test medieval Spanish 'es-old' configuration file
 
-Change in /usr/local/share/freeling/es/es-old/dicc.src --> lines 1 to 5 become
+Change in /usr/local/share/freeling/es/es-old/dicc.src -\-> lines 1 to 5 become
 ```xml
 <IndexType>
 DB_MAP
@@ -166,13 +169,13 @@ DB_MAP
 <Entries>
 &cetera etcétera Fs etcétera NCMS000
 ```
-Change in es-old.cfg --> line 77, path was mistaken --> ProbabilityFile=$FREELINGSHARE/es/es-old/probabilitats.dat
+Change in es-old.cfg -\-> line 77, path was mistaken -\-> ProbabilityFile=$FREELINGSHARE/es/es-old/probabilitats.dat
 
-Change in es-old/probabilitats.dat --> line 13, path was mistaken --> ../tagset.dat
+Change in es-old/probabilitats.dat -\-> line 13, path was mistaken -\-> ../tagset.dat
 
-Change in es-old/constr_gram.dat -->	find and replace '\t\*' > '\tXX\*' ; and find and replace ' \*\);' > ' XX\*\);'
+Change in es-old/constr_gram.dat -\->	find and replace '\t\*' > '\tXX\*' ; and find and replace ' \*\);' > ' XX\*\);'
 
-Change in es-old/tagger.dat --> line 2, path was mistaken --> ../tagset.dat
+Change in es-old/tagger.dat -\-> line 2, path was mistaken -\-> ../tagset.dat
 
 <b>Test</b>
 ```bash
@@ -202,3 +205,5 @@ source env/bin/activate
 # end recommended steps, begin install
 pip install -r requirements_spo.txt
 ```
+-->
+

@@ -7,13 +7,14 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('folder_path', help="unix string")
-    parser.add_argument('--simple', action='store_true')
-    parser.add_argument('--collate', action='store_true')
-    parser.add_argument('--lemmatise', action='store_true')
-    parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro')  # choices generate
+    parser.add_argument('folder_path', help="folder containing the files to collate")
+    parser.add_argument('--simple', action='store_true', help="do a simple collation from txt files without lemmatisation")
+    # TODO: do that by default if no lemmatisation and if from txt
+    parser.add_argument('--collate', action='store_true', help="collate the files")
+    parser.add_argument('--lemmatise', action='store_true', help="lemmatise the files")
+    parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro', help="language to use for lemmatisation")  # choices generate
     # error messages if arg is not correct, can be useful
-    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'], default='pie')
+    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'], default='pie', help="lemmatisation engine to use")
     args = parser.parse_args()
 
     if args.simple:
