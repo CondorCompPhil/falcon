@@ -16,7 +16,7 @@
                 <s>
                 {% for token in sent %}
                     <w xml:id="{{token.id}}" n="{{token.order_id}}" lemma="{{token.lemma}}"
-                       pos="{{token.pos}}" msd="{% if token.morph and token.morph != "None" %}{{token.morph}}{% endif %}" >{{token.form}}</w>{% endfor %}
+                       pos="{{token.POS}}" msd="{% if token.morph and token.morph != "None" %}{{token.morph}}{% endif %}" >{{token.form}}</w>{% endfor %}
                 </s>{% endfor %}
             </div>
        </body>

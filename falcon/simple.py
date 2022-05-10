@@ -18,6 +18,6 @@ def collateSimple(path):
 		witContent = open(wit, encoding="utf-8").read()
 		collation.add_plain_witness(witName, witContent)
 	alignment_table = collate(collation, output="tei", segmentation=False, near_match=True)
-	with open( path.split("sources")[0]+ "/simple.xml", 'w') as outFile:
-		outFile.write(alignment_table)
+
+	return alignment_table
 
