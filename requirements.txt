@@ -1,5 +1,5 @@
 collatex==2.2
 lxml==4.6.4
-pie-extended==0.0.39
+pie-extended==0.0.40
 jinja2==3.0.3
 Levenshtein==0.16.0

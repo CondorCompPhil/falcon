@@ -1,47 +1,79 @@
 import glob
 import os
-from pie import utils
-from pie.tagger import Tagger, lines_from_file
+from typing import List, Dict
+from collections import defaultdict
 from jinja2 import Environment, PackageLoader, select_autoescape
+from pie.utils import shutup
+with shutup():
+    from pie_extended.cli.utils import download, get_tagger, get_model, get_imports
+    from pie_extended.utils import get_path
 
-def lemmatise(path, model_spec):
+def check(module: str, force: bool = False) -> bool:
     """
-    lemmatises raw text input, with the given model(s), using Pie.
-    :param path: path to folder containing the texts
-    :param model_spec: specification of the model(s), in Pie syntax
-    :return: a dictionary, with a list for each witness, containing a list for each sentence.
+    Check if a language model is installed, and install it if needed
+    :param module: the language
+    :param force:
+    :return:
     """
-    tagger = Tagger()
+    lemmatizer = get_model(module)
+    return False not in [
+        os.path.exists(
+            get_path(module, file.name)
+        )
+        for file in lemmatizer.DOWNLOADS
+    ] or force
 
-    for model, tasks in utils.model_spec(model_spec):
-        tagger.add_model(model, *tasks)
-        print(" - model: {}".format(model))
-        tasks = tasks or tagger.models[-1][0].label_encoder.tasks
-        print(" - tasks: {}".format(", ".join(tasks)))
+
+Sentence = List
+Token = Dict[str, str]
+
+def lemmatise(path, model_spec) -> Dict[str, List[Sentence[Token]]]:
+
+    """
+        lemmatises raw text input, with the given model(s), using Pie(-extended).
+        :param path: path to folder containing the texts
+        :param model_spec: specification of the model, one of pie-extended's
+        :return: a dictionary, with a list for each witness, containing a list for each sentence.
+    """
+
+    # handle install
+    # lets check if we need to install or not
+    if check(model_spec) is not True:
+        for model in download(model_spec):
+            download(model_spec)
+
+    # get tagger
+    with shutup():
+        tagger = get_tagger(model_spec, batch_size=256, device="cpu", model_path=None)
+
+    # import iterator and processor
+    iterator, processor = getattr(get_imports(get_model(model_spec)), "get_iterator_and_processor")(max_tokens=256)
 
     # Get files content
     files = glob.glob(path + '/*.txt')
-    content = {}
+    content = defaultdict(list)
     for f in files:
         wit = os.path.splitext(os.path.split(f)[-1])[0]
-        content[wit] = []
-        tokenId = 1
-
-        for chunk in utils.chunks(lines_from_file(f), 200):
-            sents, lengths = zip(*chunk)
-            tagged, tasks = tagger.tag(sents, lengths)
-            for sent in tagged:
-                new_sent = []
-                for t in sent:
-                    token_dict =  {"form": t[0], "id": "w_"+str(tokenId), "order_id": str(tokenId)}
-                    # and now add the different annotations from lemmatiser
-                    for index in enumerate(tasks):
-                        token_dict[index[1]] = t[1][index[0]]
-
-                    new_sent.append(token_dict)
-                    tokenId += 1
-
-                content[wit].append(new_sent)
+        tok_id_diff = 0
+        with open(f, 'r') as doc:
+            for tok_id, token in enumerate(tagger.iter_tag_token(
+                    data=doc.read(),
+                    iterator=iterator,
+                    processor=processor,
+                    empty_token_on_sent_break=True
+            )):
+                if not content[wit]:
+                    content[wit].append([])
+                # token_dict = {"form": t[0], "id": "w_" + str(tokenId), "order_id": str(tokenId)}
+                if token is None:
+                    tok_id_diff -= 1
+                    content[wit].append([])
+                else:
+                    content[wit][-1].append({
+                        **token,
+                        "id": f"w_{tok_id + tok_id_diff}",
+                        "order_id": str(tok_id + tok_id_diff)
+                    })
 
     return content
 
@@ -64,7 +96,8 @@ def xmlify(content):
 
     for wit in content:
         #tokens = [t for sent in content[wit] for t in sent]
-        sentences = [sent for sent in content[wit]]
+        #sentences = [sent for sent in content[wit]]
+        sentences = content[wit] #TODO: fix the getting of sentences
         # if format == "tei-geste": Right now only 1 format
         #documents[wit] = template.render(tokens=tokens)
         documents[wit] = template.render(sentences=sentences)

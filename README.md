@@ -21,7 +21,15 @@ pip install -r requirements.txt
 
 Please note that installation requirements for medieval Spanish only are listed <a href="freeling">below</a>.
 
+### Language models with pie-extended
 
+Models will be installed automatically if they are not. 
+
+You can get a list of available models with
+
+```bash
+pie-extended list
+```
 
 ## Sample usage
 
