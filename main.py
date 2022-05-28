@@ -64,8 +64,8 @@ if __name__ == "__main__":
     if args.categorise:
 
         if args.collate is not True:
-            # use the specified folder path which should include collation results in XML (<app>, <rdg>)
-            xml_to_be_categorised = args.folder_path
+            # use the specified folder path which should include collation results in XML (<app>, <rdg>) in a file 'out.xml'
+            xml_to_be_categorised = args.folder_path + "/out.xml"
         else:
             # use the collation results from previous step
             xml_to_be_categorised = args.output_dir + "/coll/out.xml"
