@@ -22,15 +22,15 @@ def categorise(xml_collation_result):
         
             # if <rdg>s have same @lemma, @pos and @msd > diffGraph
             if (len(set(lemmas)) == 1) and (len(set(poss)) == 1) and (len(set(msds)) == 1):
-                variationCategory = "diffGraph"
+                variationCategory = "graphematic"
             # if <rdg>s have same @lemma, @pos, but different @msd > diffMorph
             elif (len(set(lemmas)) == 1) and (len(set(poss)) == 1):
-                variationCategory = "diffMorph"
+                variationCategory = "flexional"
             # if <rdg>s have same @lemma, but different @pos and @msd > diffPos
             elif (len(set(lemmas)) == 1):
-                variationCategory = "diffPos"
+                variationCategory = "morphosyntactic"
             else:
-                variationCategory = "diffLemma"
+                variationCategory = "lexical"
 
             # add @ana to <app> to categorize the variation
             element.set("ana", variationCategory)
