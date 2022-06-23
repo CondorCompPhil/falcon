@@ -17,7 +17,7 @@ if __name__ == "__main__":
     parser.add_argument('--lemmatise', action='store_true', help="lemmatise the files")
     parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro', help="language to use for lemmatisation")  # choices generate
     # error messages if arg is not correct, can be useful
-    parser.add_argument('--engine', action='store', choices=['pie', 'freeling'], default='pie', help="lemmatisation engine to use")
+    parser.add_argument('--engine', action='store', choices=['pie'], default='pie', help="lemmatisation engine to use")
     parser.add_argument('--output_dir', action='store', default='out',
                         help="name of the output directory (default 'out')")
     parser.add_argument('--categorise', action='store_true', help="categorise the variants resulted from the collation")
