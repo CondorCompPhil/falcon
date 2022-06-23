@@ -19,8 +19,6 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Please note that installation requirements for medieval Spanish only are listed <a href="freeling">below</a>.
-
 ### Language models with pie-extended
 
 Models will be installed automatically if they are not. 
@@ -107,14 +105,6 @@ python3 main.py data/input/chevLyon/sources --lemmatise --lang fro --engine pie
 ```
 
 
-<!--TODO: is it still up to date?
-
-medieval Spanish annotated using [Freeling](http://nlp.lsi.upc.edu/freeling/), as in this example
-```bash
-python3 main.py data/input/lucanor/sources -\-lemmatise -\-lang spo -\-engine freeling
-```
--->
-
 ### Collation
 
 ```bash
@@ -141,77 +131,3 @@ For example
 ```bash
 python3 main.py data/input/chevLyon/sources --lemmatise --lang fro --engine pie --collate
 ```
-
-<br/><br/><br/>
-
-
-<!--
-<span id="freeling"></span>
-
-## Freeling installation for this pipeline
-
-*For medieval Spanish only!*
-
-The following instructions are based on a Linux distribution, but instructions for other systems are available following the links to the Freeling documentation.
-
-- Install SWIG, as indicated here https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/calling-freeling-library-from-languages-other-than-c++/apis-linux#apis-requirements
-
-- Install freeling from sources (needed for API), as indicated here https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/installation-source Attention: add argument for Python3 to `cmake ..`
-```bash
-cmake .. -DPYTHON3_API=ON`
-```
-- Test freeling (https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/using-freeling/test-linux):
-
-```bash
-/usr/local/bin/analyze -f en.cfg < Desktop/mytext.txt
-/usr/local/bin/analyze -f en.cfg < Desktop/mytext.txt -\-output xml
-```
-
-- Fix and test medieval Spanish 'es-old' configuration file
-
-Change in /usr/local/share/freeling/es/es-old/dicc.src -\-> lines 1 to 5 become
-```xml
-<IndexType>
-DB_MAP
-<\IndexType>
-<Entries>
-&cetera etcétera Fs etcétera NCMS000
-```
-Change in es-old.cfg -\-> line 77, path was mistaken -\-> ProbabilityFile=$FREELINGSHARE/es/es-old/probabilitats.dat
-
-Change in es-old/probabilitats.dat -\-> line 13, path was mistaken -\-> ../tagset.dat
-
-Change in es-old/constr_gram.dat -\->	find and replace '\t\*' > '\tXX\*' ; and find and replace ' \*\);' > ' XX\*\);'
-
-Change in es-old/tagger.dat -\-> line 2, path was mistaken -\-> ../tagset.dat
-
-<b>Test</b>
-```bash
-/usr/local/bin/analyze -f es-old.cfg < Desktop/ms6376.txt
-```
-
-- Test the Python api, as indicated here
-
-https://talp-upc.gitbook.io/freeling-4-1-user-manual/installation/calling-freeling-library-from-languages-other-than-c++/apis-linux#python
-
-Text for test should be at list one sentence for the program to be able to detect language. Default lang is spanish.
-	
-```bash
-set FREELINGDIR=/usr/local
-cd /usr/local/share/freeling/APIs/python3
-python sample.py < mytext.txt > mytextOUTPUT.txt
-```
-
-**Once Freeling is installed, install what is needed for this pipeline**
-
-All you need is
-
-```bash
-# Recommended steps (use virtualenv)
-virtualenv env -p python3
-source env/bin/activate
-# end recommended steps, begin install
-pip install -r requirements_spo.txt
-```
--->
-
