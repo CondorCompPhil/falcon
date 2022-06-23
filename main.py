@@ -15,12 +15,13 @@ if __name__ == "__main__":
     # TODO: do that by default if no lemmatisation and if from txt
     parser.add_argument('--collate', action='store_true', help="collate the files")
     parser.add_argument('--lemmatise', action='store_true', help="lemmatise the files")
-    parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro', help="language to use for lemmatisation")  # choices generate
+    parser.add_argument('--lang', action='store', default='fro', help="language to use for lemmatisation")  # choices generate
     # error messages if arg is not correct, can be useful
-    parser.add_argument('--engine', action='store', choices=['pie'], default='pie', help="lemmatisation engine to use")
+    parser.add_argument('--engine', action='store', choices=['pie', 'treetagger'], default='pie', help="lemmatisation engine to use")
     parser.add_argument('--output_dir', action='store', default='out',
                         help="name of the output directory (default 'out')")
     parser.add_argument('--categorise', action='store_true', help="categorise the variants resulted from the collation")
+    parser.add_argument('--categType', action='store', choices=['medieval', 'contemporary'], default='medieval', help="type of categorisation, for medieval or contemporary texts")
     args = parser.parse_args()
 
     # create output dir
@@ -71,7 +72,7 @@ if __name__ == "__main__":
             xml_to_be_categorised = args.output_dir + "/coll/out.xml"
 
         # assign a category to each <app> containing variant <rdg>s
-        categ_xml_output = categ.categorise(xml_to_be_categorised)
+        categ_xml_output = categ.choose_categorisationType(xml_to_be_categorised, args.categType)
 
         os.makedirs(args.output_dir + "/categ", exist_ok=True)
 
