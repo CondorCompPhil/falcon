@@ -1,5 +1,10 @@
 from lxml import etree
 
+import nltk
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+from nltk.corpus import wordnet as wn
+
 def categorise_medieval(xml_collation_result):
 
     with open(xml_collation_result, "r", encoding="utf-8") as inFile:
@@ -70,6 +75,22 @@ def categorise_contemporary(xml_collation_result):
             else:
                 variationCategory = "lexical"
 
+                ## TO DO: lang should be taken from args.lang
+                synonyms_w_allLemmas = [] # list of all synonyms of all lemmas : list of lists
+                for lemma in lemmas:
+                    # all synonyms of all meanings for each lemma
+                    synonyms_w_singleLemma = []
+                    meanings = wn.lemmas(lemma, lang="ita")
+                    for meaning in meanings:
+                        synonyms = meaning.synset().lemmas(lang="ita")
+                        for synonym in synonyms:
+                            synonyms_w_singleLemma.append(synonym.name())
+                    synonyms_w_allLemmas.append(synonyms_w_singleLemma)
+                # common items in the list of all synonyms of all lemmas    
+                common_syns = list(set.intersection(*map(set, synonyms_w_allLemmas)))
+                if (len(common_syns) > 0):
+                    variationCategory = "lexical synonym"
+
             # add @ana to <app> to categorize the variation
             element.set("ana", variationCategory)
 
@@ -83,8 +104,6 @@ def choose_categorisationType(xml_to_be_categorised, categType):
 
     if categType == "medieval":
         categorisedOutput = categorise_medieval(xml_to_be_categorised)
-
-
 
     if categType == "contemporary":
         categorisedOutput = categorise_contemporary(xml_to_be_categorised)
