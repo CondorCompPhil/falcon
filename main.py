@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # TODO: do that by default if no lemmatisation and if from txt
     parser.add_argument('--collate', action='store_true', help="collate the files")
     parser.add_argument('--lemmatise', action='store_true', help="lemmatise the files")
-    parser.add_argument('--lang', action='store', choices=['fro', 'spo'], default='fro', help="language to use for lemmatisation")  # choices generate
+    parser.add_argument('--lang', action='store', choices=['fro', 'fr', 'freem', 'grc', 'dum', 'lasla'], default='fro', help="language to use for lemmatisation (as per models available in pie-extended)")  # choices generate
     # error messages if arg is not correct, can be useful
     parser.add_argument('--engine', action='store', choices=['pie'], default='pie', help="lemmatisation engine to use")
     parser.add_argument('--output_dir', action='store', default='out',
