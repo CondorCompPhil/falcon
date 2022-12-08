@@ -1,7 +1,7 @@
 boto==2.49.0
 boto3==1.9.156
 botocore==1.12.156
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 collatex==2.2
 decorator==4.4.0
