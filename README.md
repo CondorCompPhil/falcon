@@ -7,7 +7,7 @@ This repository contains scripts for a collation processing workflow and its eva
 
 ```bash
 # Recommended steps (use virtualenv)
-virtualenv env -p python3.8
+virtualenv env -p python3.7
 source env/bin/activate
 # end recommended steps
 
